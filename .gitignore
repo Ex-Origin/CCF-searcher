@@ -1,0 +1,16 @@
+.ipynb_checkpoints
+__pycache__
+dblp_crawler_output.json
+abstract_crawler_input.json
+abstract_crawler_output.json
+*.zip
+*.tar.gz
+ccf_searcher.ipynb
+abstract_searcher.ipynb
+paper_to_ccf_rank.ipynb
+*_output.md
+*_output.pdf
+Untitled.ipynb
+err
+out
+favicon.ico

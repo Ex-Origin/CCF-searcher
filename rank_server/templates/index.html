@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>CCF rank</title>
+    <meta name="description" content="CCF rank">
+    <meta name="keywords" content="">
+    <meta name="author" content="Ex">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+    <link href="{{ url_for('static', filename='css/main.css') }}" media="screen" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="article container">
+        <h1 style="text-align: center;">CCF rank</h1>
+        <hr />
+        <div class="form__group field">
+            <input type="input" class="form__field" placeholder="Title of paper" name="title" id='title' required />
+            <label for="title" class="form__label">Title of paper</label>
+        </div>
+        <ol id="show-data">
+
+        </ol>
+    </div>
+</body>
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}"></script>
+<script>
+    $("#title").on('input', function () {
+        if ($(this).val()) {
+            var title = $(this).val();
+            $.ajax('/api/search', {
+                type: 'POST',  // http method
+                data: { title: title },  // data to submit
+                dataType: 'json', // type of response data
+                success: function (data, status, xhr) {
+                    if (data.info == 'success') {
+                        if (data.data.length > 0) {
+                            $("#show-data").html('');
+                            for (i = 0; i < data.data.length; i++) {
+                                paper = JSON.parse(data.data[i]);
+                                $("#show-data").append('<li><p><b>Class</b>: ' + paper.ccf_rank +
+                                    '</p><p><b>Year</b>: ' + paper.year + 
+                                    '</p><p><b>Publisher</b>: ' + paper.publisher + 
+                                    '</p><p><b>Abbreviation</b>: ' + paper.abbreviation +
+                                    '</p><p><b>Title</b>: ' + paper.title +
+                                    '</p><p><b>DOI</b>: <a target="_blank" href="' + paper.doi + '">' + paper.doi + '</a>' +
+                                    '</p><p><b>Authors</b>: ' + paper.authors + 
+                                    '</p><p><b>Name in CCF</b>: ' + paper.ccf_name + 
+                                    '</p><p><b>Full Name</b>: ' + paper.full_name + '</p></li>');
+                            }
+                        } else {
+                            $("#show-data").text('Not found in CCF -- ' + title);
+                        }
+                    } else if (data.info == 'failed') {
+                        $("#show-data").text('Error: ' + data.data);
+                    } else {
+                        alert("Unknown info");
+                    }
+                },
+                error: function (jqXhr, textStatus, errorMessage) {
+                    alert("error");
+                }
+            });
+        }else{
+            $("#show-data").html('');
+        }
+    });
+</script>
+
+</html>
