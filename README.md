@@ -94,14 +94,16 @@ Using more accurate searcher.
 df2 = df[(df['year'] >= 2018) | (df["year"] == -1)]
 df2 = df2[(df2['ccf_rank'].str.contains('CCF-A|CCF-B', case=False))]
 # ------------- Field         -------------
-df2 = df2[(df2['title'].str.contains('reinforcement|multi-armed', case=False))]
+df2 = df2[(df2['title'].str.contains('', case=False))]
+df2 = df2[(df2['abstract'].str.contains('reinforcement|multi-armed', case=False))]
 # ------------- Direction     -------------
-df2 = df2[(df2['title'].str.contains('adversarial', case=False))]
+df2 = df2[(df2['title'].str.contains('', case=False))]
+df2 = df2[(df2['abstract'].str.contains('adversarial', case=False))]
 # ------------- Conference / Journal   -------------
-df2 = df2[(df2['ccf_name'].str.contains('USENIX|AAAI', case=False))]
+df2 = df2[(df2['ccf_name'].str.contains('', case=False))]
 
 df2 = df2.sort_values(['ccf_rank', 'year', 'abbreviation'], ascending=[True, False, False])
-df3 = df2[["ccf_rank", "ccf_name", "year", "title", "authors"]].copy() # Show
+df3 = df2[["ccf_rank", "ccf_name", "year", "title", "authors", "abstract"]].copy() # Show
 df3.authors = df3['authors'].str[:32]
 print('Count: ', len(df3))
 display(df3.head(100).style)
