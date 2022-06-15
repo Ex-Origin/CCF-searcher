@@ -19,7 +19,7 @@ ccf_publisher = []
 ccf_url = []
 
 def out_print(info:str):
-    print('%s: %s' %(time.strftime('%Y-%m-%d %H:%M:%S'), info))
+    print('[%s] : %s' %(time.strftime('%Y-%m-%d %H:%M:%S'), info), flush=True)
 
 def hash_full_name(name:str)->str:
     name = name.lower()
