@@ -134,6 +134,7 @@ def main_handler(search_list, start=1, proxy={}):
             elif('ieeexplore.ieee.org' in result[0]):
                 abstract = ieee_handler(result[1])
             else:
+                abstract = ['']
                 out_print('Unknown pattern %s' % (result[0]))
 
             paper_info += [search_list[(start - 1) + i] + abstract]   
@@ -144,7 +145,7 @@ def main_handler(search_list, start=1, proxy={}):
 
 if(__name__ == '__main__'):
     search_list = [
-        # ['A', 'CCS', 2021, 'Fuzzy Message Detection', 'https://doi.org/10.1145/3460120.3484545'],
+        # [2021, "Self-Adaptive Sampling for Network Traffic Measurement", "https://doi.org/10.1109/INFOCOM42981.2021.9488425", "", "CCF-A", "INFOCOM", "", "", ""],
     ]
     proxy = {
         'http' : '',
