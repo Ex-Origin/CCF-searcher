@@ -101,8 +101,8 @@ def ieee_handler(text_without_line):
         tmp = text_without_line[head + 13 :tail]\
             .replace('\\n', '\n').replace('\\\'', '\'').replace('\\\"', '\"').replace('\\\\', '\\')
         if(tmp):
-            # tmp = re.sub('<.+?>', '', tmp)
-            # tmp = html.unescape(tmp) 
+            tmp = re.sub('<.+?>', '', tmp)
+            tmp = html.unescape(tmp) 
             abstract = tmp
         else:
             out_print("Not found abstract.")
@@ -137,7 +137,7 @@ def main_handler(search_list, start=1, proxy={}):
                 abstract = ['']
                 out_print('Unknown pattern %s' % (result[0]))
 
-            paper_info += [search_list[(start - 1) + i] + abstract]   
+            paper_info += [search_list[(start - 1) + i] + abstract]  
     
     return paper_info
 
