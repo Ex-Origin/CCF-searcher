@@ -7,6 +7,8 @@ import html
 import urllib
 import json
 import os
+import cloudscraper
+from urllib.parse import unquote
 
 def out_print(info):
     print('[%s] : %s' %(time.strftime('%Y-%m-%d %H:%M:%S'), info), flush=True)
@@ -22,7 +24,7 @@ def get(url, proxy={}):
         i += 1
 
         try:
-            raw_response = requests.get(url, proxies=proxy)
+            raw_response = scraper.get(url, proxies=proxy)
         except Exception as e:
             out_print(str(e))
             time.sleep(10)
@@ -40,6 +42,7 @@ def get(url, proxy={}):
     if(raw_response):
         return (raw_response.url, raw_response.text.replace('\n', ''))
     else:
+        out_print('Error: ' + str(raw_response))
         return ()
 
 def usenix_handler(text_without_line):
@@ -111,6 +114,39 @@ def ieee_handler(text_without_line):
 
     return [abstract]
 
+def elsevier_handler(text_without_line):
+    '''
+    Return list 
+    [abstract]
+    '''
+    abstract = ''
+
+    head = text_without_line.find('?Redirect=')
+    if(head == -1):
+        return [abstract]
+    head += 10
+    tail = text_without_line.find("'", head)
+    url = unquote(text_without_line[head: tail])
+    real_url, new_text_without_line = get(url)
+    if('www.sciencedirect.com' not in real_url):
+        out_print('Error: in elsevier_handler, %s -> %s' % (url, real_url))
+
+    head = new_text_without_line.find('">Abstract</h2>')
+    tail = new_text_without_line.find('</div>', head + 15)
+    if(head != -1 and tail != -1):
+        tmp = re.findall('<p.*?>(.+?)</p>', new_text_without_line[head + 15 : tail])
+        if(tmp):
+            tmp = '\n'.join(tmp)
+            tmp = re.sub('<.+?>', '', tmp)
+            tmp = html.unescape(tmp) 
+            abstract = tmp
+        else:
+            out_print("Not found abstract.")
+    else:
+        out_print("Not found abstract.")
+    
+    return [abstract]
+
 def main_handler(search_list, start=1, proxy={}):
     '''
     Return matrix 
@@ -120,9 +156,9 @@ def main_handler(search_list, start=1, proxy={}):
     length = len(search_list)
     num = length - (start - 1)
     paper_info = []
-    for i in range(num):
-        instance_url = search_list[(start - 1) + i][2] # DOI
-        out_print('(%03d/%03d) Deal with: %s' % (start + i, length, instance_url))
+    for pi in range(num):
+        instance_url = search_list[(start - 1) + pi][2] # DOI
+        out_print('(%03d/%03d) Deal with: %s' % (start + pi, length, instance_url))
 
         result = get(instance_url, proxy)
         if(result):
@@ -133,11 +169,13 @@ def main_handler(search_list, start=1, proxy={}):
                 abstract = acm_handler(result[1])
             elif('ieeexplore.ieee.org' in result[0]):
                 abstract = ieee_handler(result[1])
+            elif('linkinghub.elsevier.com' in result[0]): # www.sciencedirect.com
+                abstract = elsevier_handler(result[1])
             else:
                 abstract = ['']
                 out_print('Unknown pattern %s' % (result[0]))
 
-            paper_info += [search_list[(start - 1) + i] + abstract]  
+            paper_info += [search_list[(start - 1) + pi] + abstract]  
     
     return paper_info
 
@@ -151,6 +189,7 @@ if(__name__ == '__main__'):
         'http' : '',
         'https': '',
     }
+    scraper = cloudscraper.create_scraper()
 
     '''
     Matrix 
