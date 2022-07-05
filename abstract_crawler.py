@@ -13,30 +13,36 @@ from urllib.parse import unquote
 def out_print(info):
     print('[%s] : %s' %(time.strftime('%Y-%m-%d %H:%M:%S'), info), flush=True)
 
-def get(url, proxy={}):
+def get(url):
     '''
     Return set 
     (real_url, text_without_line)
     '''
     i = 0
     raw_response = False
-    while(i < 5 and raw_response == False):
+    while(i < 5 and (not raw_response)):
         i += 1
 
         try:
-            raw_response = scraper.get(url, proxies=proxy)
+            in_domain = False
+            for domain in headers:
+                if((not in_domain) and domain in url):
+                    in_domain = True
+                    raw_response = requests.get(url, proxies=proxy, headers=headers[domain], timeout=10)
+            
+            if(in_domain == False):
+                raw_response = requests.get(url, proxies=proxy, timeout=10)
+
+            if('xplore-shut-page.html' in raw_response.url):
+                out_print('Warn: IEEE Xplore is temporarily unavailable')
+                time.sleep(10)
+            
+            if(raw_response.status_code != 200):
+                out_print('Warn: HTTP %d at %s' % (raw_response.status_code, url))
+                time.sleep(10)
+
         except Exception as e:
             out_print(str(e))
-            time.sleep(10)
-        
-        if(raw_response and 'xplore-shut-page.html' in raw_response.url):
-            out_print('IEEE Xplore is temporarily unavailable')
-            raw_response = False
-            time.sleep(10)
-        
-        if(raw_response and raw_response.status_code != 200):
-            out_print('HTTP %d at %s' % (raw_response.status_code, url))
-            raw_response = False
             time.sleep(10)
 
     if(raw_response):
@@ -147,7 +153,7 @@ def elsevier_handler(text_without_line):
     
     return [abstract]
 
-def main_handler(search_list, start=1, proxy={}):
+def main_handler(search_list, start=1):
     '''
     Return matrix 
     [[class, abbreviation, year, title, doi_url, authors, abstract], 
@@ -160,7 +166,7 @@ def main_handler(search_list, start=1, proxy={}):
         instance_url = search_list[(start - 1) + pi][2] # DOI
         out_print('(%03d/%03d) Deal with: %s' % (start + pi, length, instance_url))
 
-        result = get(instance_url, proxy)
+        result = get(instance_url)
         if(result):
             if('www.usenix.org' in result[0]):
                 abstract = usenix_handler(result[1])
@@ -189,7 +195,21 @@ if(__name__ == '__main__'):
         'http' : '',
         'https': '',
     }
-    scraper = cloudscraper.create_scraper()
+    headers = {}
+    if(os.access('headers.txt', os.R_OK)):
+        out_print('Load headers.txt')
+        with open('headers.txt', 'r') as f:
+            content = f.read()
+            domains = content.split('\n\n')
+            for domain in domains:
+                lines = domain.split('\n')
+                tmp = {}
+                for v in lines[1:]:
+                    vv = v.split(': ')
+                    # Filter some headers
+                    if(vv[0].lower() not in ['accept-encoding']):
+                        tmp[vv[0]] = vv[1]
+                headers[lines[0]] = tmp
 
     '''
     Matrix 
@@ -202,12 +222,12 @@ if(__name__ == '__main__'):
         with open('abstract_crawler_input.json', 'r') as f:
             target = json.loads(f.read())
             out_print("Handle abstract_crawler_input.json")
-            tmp = main_handler(target, 1, proxy)
+            tmp = main_handler(target, 1)
             if(tmp):
                 paper_lists += tmp
 
     if(search_list):
-        tmp = main_handler(search_list, 1, proxy)
+        tmp = main_handler(search_list, 1)
         if(tmp):
             paper_lists += tmp
 
