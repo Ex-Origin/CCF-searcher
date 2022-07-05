@@ -20,36 +20,38 @@ def get(url):
     '''
     i = 0
     raw_response = False
-    while(i < 5 and (not raw_response)):
+    status_code = 0
+    while(i < 5 and (not raw_response) and status_code != 404):
         i += 1
 
         try:
-            in_domain = False
-            for domain in headers:
-                if((not in_domain) and domain in url):
-                    in_domain = True
-                    raw_response = requests.get(url, proxies=proxy, headers=headers[domain], timeout=10)
-            
-            if(in_domain == False):
-                raw_response = requests.get(url, proxies=proxy, timeout=10)
+            raw_response = session.get(url, proxies=proxy, timeout=10)
+            status_code = raw_response.status_code
 
             if('xplore-shut-page.html' in raw_response.url):
                 out_print('Warn: IEEE Xplore is temporarily unavailable')
                 time.sleep(10)
-            
-            if(raw_response.status_code != 200):
+
+            if(status_code == 404):
+                pass
+            elif(status_code == 200):
+                pass
+            elif(status_code == 503):
                 out_print('Warn: HTTP %d at %s' % (raw_response.status_code, url))
                 time.sleep(10)
+            else:
+                out_print('Warn: HTTP %d at %s' % (raw_response.status_code, url))
 
         except Exception as e:
             out_print(str(e))
+            status_code = 0
             time.sleep(10)
 
-    if(raw_response):
+    if(raw_response and raw_response.status_code == 200):
         return (raw_response.url, raw_response.text.replace('\n', ''))
     else:
         out_print('Error: ' + str(raw_response))
-        return ()
+        return ('', '')
 
 def usenix_handler(text_without_line):
     '''
@@ -195,21 +197,33 @@ if(__name__ == '__main__'):
         'http' : '',
         'https': '',
     }
-    headers = {}
+    
+    session = cloudscraper.create_scraper()
     if(os.access('headers.txt', os.R_OK)):
-        out_print('Load headers.txt')
         with open('headers.txt', 'r') as f:
             content = f.read()
-            domains = content.split('\n\n')
-            for domain in domains:
-                lines = domain.split('\n')
+            if(content):
+                out_print('Load headers.txt')
+                lines = content.split('\n')
                 tmp = {}
-                for v in lines[1:]:
-                    vv = v.split(': ')
-                    # Filter some headers
-                    if(vv[0].lower() not in ['accept-encoding']):
-                        tmp[vv[0]] = vv[1]
-                headers[lines[0]] = tmp
+                for v in lines:
+                    v = v.split(': ')
+                    tmp[v[0]] = v[1]
+
+                session.headers.update(tmp)
+
+    if(os.access('cookies.txt', os.R_OK)):
+        with open('cookies.txt', 'r') as f:
+            content = f.read()
+            if(content):
+                out_print('Load cookies.txt')
+                domains = content.split('\n\n')
+                for domain in domains:
+                    lines = domain.split('\n')
+                    tmp = {}
+                    for v in lines[1].split('; '):
+                        v = v.split('=')
+                        session.cookies.set(v[0], v[1], domain=lines[0])
 
     '''
     Matrix 

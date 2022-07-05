@@ -92,25 +92,40 @@ def add_new_column(old_list, position, value=''):
         new_list += [new_row]
     return new_list
 
-def get(url, proxy={}):
+def get(url):
     i = 0
     raw_response = False
-    while(i < 5 and raw_response == False):
+    status_code = 0
+    while(i < 5 and (not raw_response) and status_code != 404):
         i += 1
         try:
-            raw_response = requests.get(url, proxies=proxy)
+            raw_response = requests.get(url, proxies=proxy, timeout=10)
+            status_code = raw_response.status_code
+
+            if(status_code == 404):
+                pass
+            elif(status_code == 200):
+                pass
+            elif(status_code == 503):
+                out_print('Warn: HTTP %d at %s' % (raw_response.status_code, url))
+                time.sleep(10)
+            else:
+                out_print('Warn: HTTP %d at %s' % (raw_response.status_code, url))
+
         except Exception as e:
             out_print(str(e))
+            status_code = 0
             time.sleep(10)
-    if(raw_response.status_code == 404):
-        out_print('HTTP 404 at %s' % (url))
-        return ''
-    else:
+
+    if(raw_response and raw_response.status_code == 200):
         text = raw_response.text
         text_without_line = text.replace('\n', '')
         return text_without_line
+    else:
+        out_print('Warn: url: %s : %s' % (url, str(raw_response)))
+        return ''
 
-def single_conf_handler(url, proxy={}):
+def single_conf_handler(url):
     '''
     Return matrix 
     [[year, title, doi_url, authors, ccf_rank, abbreviation, ccf_name, full_name, publisher], 
@@ -121,7 +136,7 @@ def single_conf_handler(url, proxy={}):
     if(tmp):
         year = int(tmp[0])
 
-    text_inner_without_line = get(url, proxy)
+    text_inner_without_line = get(url)
     if(text_inner_without_line == ''):
         out_print("single_conf_handler ERROR")
         return []
@@ -185,13 +200,13 @@ def single_conf_handler(url, proxy={}):
             
     return tmp_paper
 
-def single_journals_handler(url, proxy={}):
+def single_journals_handler(url):
     '''
     Return matrix 
     [[year, title, doi_url, authors, ccf_rank, abbreviation, ccf_name, full_name, publisher], 
      [year, title, doi_url, authors, ccf_rank, abbreviation, ccf_name, full_name, publisher]]
     '''
-    text_inner_without_line = get(url, proxy)
+    text_inner_without_line = get(url)
     if(text_inner_without_line == ''):
         out_print("single_journals_handler ERROR")
         return []
@@ -266,13 +281,13 @@ def single_journals_handler(url, proxy={}):
 
     return tmp_paper
 
-def conf_handler(url, proxy={}):
+def conf_handler(url):
     '''
     Return matrix 
     [[year, title, doi_url, authors, ccf_rank, abbreviation, ccf_name, full_name, publisher], 
      [year, title, doi_url, authors, ccf_rank, abbreviation, ccf_name, full_name, publisher]]
     '''
-    text_without_line = get(url, proxy)
+    text_without_line = get(url)
     if(text_without_line == ''):
         out_print("conf_handler ERROR")
         return []
@@ -291,17 +306,17 @@ def conf_handler(url, proxy={}):
     
     paper_info = []
     for detail_url in detail_url_list:
-        paper_info += single_conf_handler(detail_url, proxy)
+        paper_info += single_conf_handler(detail_url)
 
     return paper_info
     
-def journals_handler(url, proxy={}):
+def journals_handler(url):
     '''
     Return matrix 
     [[year, title, doi_url, authors, ccf_rank, abbreviation, ccf_name, full_name, publisher], 
      [year, title, doi_url, authors, ccf_rank, abbreviation, ccf_name, full_name, publisher]]
     '''
-    text_without_line = get(url, proxy)
+    text_without_line = get(url)
     if(text_without_line == ''):
         out_print("journals_handler ERROR")
         return []
@@ -318,7 +333,7 @@ def journals_handler(url, proxy={}):
 
     paper_info = []
     for detail_url in detail_url_list:
-        paper_info += single_journals_handler(detail_url, proxy)
+        paper_info += single_journals_handler(detail_url)
     
     return paper_info
 
@@ -343,7 +358,7 @@ def load_ccf():
                 ccf_publisher += [item['publisher']]
                 ccf_url += [item['url']]
 
-def main_handler(search_list, start=1, proxy={}):
+def main_handler(search_list, start=1):
     '''
     Return matrix 
     [[year, title, doi_url, authors, ccf_rank, abbreviation, ccf_name, full_name, publisher], 
@@ -359,9 +374,9 @@ def main_handler(search_list, start=1, proxy={}):
         out_print('(%03d/%03d) Deal with: %s' % (start + i, length, instance_url))
 
         if('dblp.uni-trier.de/db/conf' in instance_url):
-            paper_info += conf_handler(instance_url, proxy)
+            paper_info += conf_handler(instance_url)
         elif('dblp.uni-trier.de/db/journals' in instance_url):
-            paper_info += journals_handler(instance_url, proxy)
+            paper_info += journals_handler(instance_url)
         else:
             out_print('Only support for dblp.uni-trier.de')
     
@@ -398,10 +413,10 @@ if(__name__ == '__main__'):
     '''
     paper_lists = []
 
-    paper_lists += main_handler(get_unique_ccf_url(), 1, proxy)
+    paper_lists += main_handler(get_unique_ccf_url(), 1)
 
     if(search_list):
-        paper_lists += main_handler(search_list, 1, proxy)
+        paper_lists += main_handler(search_list, 1)
 
     out_print('Sum: ' + str(len(paper_lists)))
     open('dblp_crawler_output.json', 'w').write(json.dumps(paper_lists))
