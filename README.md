@@ -67,8 +67,6 @@ display(pd.DataFrame(df2.groupby(['ccf_rank', 'ccf_name']).size().sort_values(as
 
 Query CCF-rank of paper in website quickly.
 
-Preview website: [ccf-rank.eonew.cn](http://ccf-rank.eonew.cn)
-
 ### paper_to_ccf_rank_example.ipynb
 
 Same as `Rank Server`.
