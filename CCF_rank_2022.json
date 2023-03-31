@@ -35,7 +35,7 @@
         "url": "http://dblp.uni-trier.de/db/journals/tpds/"
     },
     {
-        "ccf-rank": "CCF-B",
+        "ccf-rank": "CCF-A",
         "abbreviation": "TACO",
         "full-name": "ACM Transactions on Architecture and Code Optimization",
         "publisher": "ACM",
@@ -92,17 +92,17 @@
     },
     {
         "ccf-rank": "CCF-B",
-        "abbreviation": "PARCO",
+        "abbreviation": "",
         "full-name": "Parallel Computing",
         "publisher": "Elsevier",
-        "url": "http://dblp.uni-trier.de/db/conf/parco/"
+        "url": "https://dblp.org/db/journals/pc/index.html"
     },
     {
         "ccf-rank": "CCF-B",
         "abbreviation": "",
         "full-name": "Performance Evaluation: An International Journal",
         "publisher": "Elsevier",
-        "url": "http://www.journals.elsevier.com/performance-evaluation/"
+        "url": "https://dblp.org/db/journals/pe/index.html"
     },
     {
         "ccf-rank": "CCF-C",
@@ -162,13 +162,6 @@
     },
     {
         "ccf-rank": "CCF-C",
-        "abbreviation": "MICPRO",
-        "full-name": "Microprocessors and Microsystems: Embedded Hardware Design",
-        "publisher": "Elsevier",
-        "url": "http://dblp.uni-trier.de/db/journals/mam/"
-    },
-    {
-        "ccf-rank": "CCF-C",
         "abbreviation": "RTS",
         "full-name": "Real-Time Systems",
         "publisher": "Springer",
@@ -180,6 +173,27 @@
         "full-name": "The Journal of Supercomputing",
         "publisher": "Springer",
         "url": "http://dblp.uni-trier.de/db/journals/tjs/"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "TCASI",
+        "full-name": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+        "publisher": "IEEE",
+        "url": "https://dblp.org/db/journals/tcasI/index.html"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "CCF-THPC",
+        "full-name": "CCF Transactions on High Performance Computing",
+        "publisher": "CCF",
+        "url": "https://dblp.org/db/journals/ccfthpc/index.html"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "TSUSC",
+        "full-name": "IEEE Transactions on Sustainable Computing",
+        "publisher": "IEEE",
+        "url": "https://dblp.org/db/journals/tsusc/index.html"
     },
     {
         "ccf-rank": "CCF-A",
@@ -245,6 +259,13 @@
         "url": "http://dblp.uni-trier.de/db/conf/usenix/index.html"
     },
     {
+        "ccf-rank": "CCF-A",
+        "abbreviation": "EuroSys",
+        "full-name": "European Conference on Computer Systems",
+        "publisher": "ACM",
+        "url": "http://dblp.uni-trier.de/db/conf/eurosys/"
+    },
+    {
         "ccf-rank": "CCF-B",
         "abbreviation": "SoCC",
         "full-name": "ACM Symposium on Cloud Computing",
@@ -285,13 +306,6 @@
         "full-name": "Design, Automation & Test in Europe",
         "publisher": "IEEE/ACM",
         "url": "http://dblp.uni-trier.de/db/conf/date/"
-    },
-    {
-        "ccf-rank": "CCF-B",
-        "abbreviation": "EuroSys",
-        "full-name": "European Conference on Computer Systems",
-        "publisher": "ACM",
-        "url": "http://dblp.uni-trier.de/db/conf/eurosys/"
     },
     {
         "ccf-rank": "CCF-B",
@@ -428,6 +442,13 @@
     },
     {
         "ccf-rank": "CCF-C",
+        "abbreviation": "Euro-Par",
+        "full-name": "European Conference on Parallel and Distributed Computing",
+        "publisher": "Springer",
+        "url": "http://dblp.uni-trier.de/db/conf/europar/"
+    },
+    {
+        "ccf-rank": "CCF-C",
         "abbreviation": "CF",
         "full-name": "ACM International Conference on Computing Frontiers",
         "publisher": "ACM",
@@ -460,13 +481,6 @@
         "full-name": "Asia and South Pacific Design Automation Conference",
         "publisher": "ACM/IEEE",
         "url": "http://dblp.uni-trier.de/db/conf/aspdac"
-    },
-    {
-        "ccf-rank": "CCF-C",
-        "abbreviation": "Euro-Par",
-        "full-name": "European Conference on Parallel and Distributed Computing",
-        "publisher": "Springer",
-        "url": "http://dblp.uni-trier.de/db/conf/europar/"
     },
     {
         "ccf-rank": "CCF-C",
@@ -609,6 +623,13 @@
         "url": "http://dblp.uni-trier.de/db/conf/vts/"
     },
     {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "ITC-Asia",
+        "full-name": "International Test Conference in Asia",
+        "publisher": "IEEE",
+        "url": "https://dblp.org/db/conf/itc-asia/index.html"
+    },
+    {
         "ccf-rank": "CCF-A",
         "abbreviation": "JSAC",
         "full-name": "IEEE Journal of Selected Areas in Communications",
@@ -740,6 +761,13 @@
         "full-name": "Wireless Networks",
         "publisher": "Springer",
         "url": "http://dblp.uni-trier.de/db/journals/winet/"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "IOT",
+        "full-name": "IEEE Internet of Things Journal",
+        "publisher": "IEEE",
+        "url": "https://dblp.org/db/journals/iot/index.html"
     },
     {
         "ccf-rank": "CCF-A",
@@ -973,6 +1001,13 @@
         "url": "http://dblp.uni-trier.de/db/conf/hotnets/"
     },
     {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "APNet",
+        "full-name": "Asia-Pacific Workshop on Networking",
+        "publisher": "ACM",
+        "url": "https://dblp.org/db/conf/apnet/index.html"
+    },
+    {
         "ccf-rank": "CCF-A",
         "abbreviation": "TDSC",
         "full-name": "IEEE Transactions on Dependable and Secure Computing",
@@ -1078,6 +1113,13 @@
         "url": "http://dblp.uni-trier.de/db/journals/scn/"
     },
     {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "",
+        "full-name": "Cybersecurity",
+        "publisher": "Springer",
+        "url": "https://dblp.uni-trier.de/db/journals/cybersec/index.html"
+    },
+    {
         "ccf-rank": "CCF-A",
         "abbreviation": "CCS",
         "full-name": "ACM Conference on Computer and Communications Security",
@@ -1111,6 +1153,13 @@
         "full-name": "Usenix Security Symposium",
         "publisher": "USENIX Association",
         "url": "http://dblp.uni-trier.de/db/conf/uss/"
+    },
+    {
+        "ccf-rank": "CCF-A",
+        "abbreviation": "NDSS",
+        "full-name": "Network and Distributed System Security Symposium",
+        "publisher": "ISOC",
+        "url": "http://dblp.uni-trier.de/db/conf/ndss/"
     },
     {
         "ccf-rank": "CCF-B",
@@ -1181,13 +1230,6 @@
         "full-name": "International Workshop on Practice and Theory in Public Key Cryptography",
         "publisher": "Springer",
         "url": "http://dblp.uni-trier.de/db/conf/pkc/"
-    },
-    {
-        "ccf-rank": "CCF-B",
-        "abbreviation": "NDSS",
-        "full-name": "ISOC Network and Distributed System Security Symposium",
-        "publisher": "ISOC",
-        "url": "http://dblp.uni-trier.de/db/conf/ndss/"
     },
     {
         "ccf-rank": "CCF-B",
@@ -1365,6 +1407,20 @@
         "url": "http://www.usenix.org/events/"
     },
     {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "EuroS&P",
+        "full-name": "IEEE European Symposium on Security and Privacy",
+        "publisher": "IEEE",
+        "url": "https://dblp.org/db/conf/eurosp/index.html"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "Inscrypt",
+        "full-name": "International Conference on Information Security and Cryptology",
+        "publisher": "Springer",
+        "url": "https://dblp.org/db/conf/cisc/index.html"
+    },
+    {
         "ccf-rank": "CCF-A",
         "abbreviation": "TOPLAS",
         "full-name": "ACM Transactions on Programming Languages & Systems",
@@ -1386,6 +1442,13 @@
         "url": "http://dblp.uni-trier.de/db/journals/tse/"
     },
     {
+        "ccf-rank": "CCF-A",
+        "abbreviation": "TSC",
+        "full-name": "IEEE Transactions on Services Computing",
+        "publisher": "IEEE",
+        "url": "http://dblp.uni-trier.de/db/journals/tsc/"
+    },
+    {
         "ccf-rank": "CCF-B",
         "abbreviation": "ASE",
         "full-name": "Automated Software Engineering",
@@ -1398,13 +1461,6 @@
         "full-name": "Empirical Software Engineering",
         "publisher": "Springer",
         "url": "http://dblp.uni-trier.de/db/journals/ese/"
-    },
-    {
-        "ccf-rank": "CCF-B",
-        "abbreviation": "TSC",
-        "full-name": "IEEE Transactions on Service Computing",
-        "publisher": "IEEE",
-        "url": "http://dblp.uni-trier.de/db/journals/tsc/"
     },
     {
         "ccf-rank": "CCF-B",
@@ -1533,6 +1589,13 @@
         "url": "http://dblp.uni-trier.de/db/journals/tplp/"
     },
     {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "PACM PL",
+        "full-name": "Proceedings of the ACM on Programming Languages",
+        "publisher": "ACM",
+        "url": "https://dblp.org/db/journals/pacmpl/index.html"
+    },
+    {
         "ccf-rank": "CCF-A",
         "abbreviation": "PLDI",
         "full-name": "ACM SIGPLAN Conference on Programming Language Design & Implementation",
@@ -1594,6 +1657,13 @@
         "full-name": "USENIX Symposium on Operating Systems Design and Implementations",
         "publisher": "USENIX",
         "url": "http://dblp.uni-trier.de/db/conf/osdi/"
+    },
+    {
+        "ccf-rank": "CCF-A",
+        "abbreviation": "FM",
+        "full-name": "International Symposium on Formal Methods",
+        "publisher": "FME",
+        "url": "http://dblp.uni-trier.de/db/conf/fm/"
     },
     {
         "ccf-rank": "CCF-B",
@@ -1713,13 +1783,6 @@
         "full-name": "International Symposium on Empirical Software Engineering and Measurement",
         "publisher": "ACM/IEEE",
         "url": "http://dblp.uni-trier.de/db/conf/esem/"
-    },
-    {
-        "ccf-rank": "CCF-B",
-        "abbreviation": "FM",
-        "full-name": "International Symposium on Formal Methods",
-        "publisher": "FME",
-        "url": "http://dblp.uni-trier.de/db/conf/fm/"
     },
     {
         "ccf-rank": "CCF-B",
@@ -1909,6 +1972,20 @@
         "full-name": "Working IEEE/IFIP Conference on Software Architecture",
         "publisher": "IEEE",
         "url": "http://dblp.uni-trier.de/db/conf/wicsa/"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "Internetware",
+        "full-name": "Asia-Pacific Symposium on Internetware",
+        "publisher": "ACM",
+        "url": "https://dblp.org/db/conf/internetware/index.html"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "RV",
+        "full-name": "International Conference on Runtime Verification",
+        "publisher": "Springer",
+        "url": "https://dblp.org/db/conf/rv/index.html"
     },
     {
         "ccf-rank": "CCF-A",
@@ -2128,6 +2205,13 @@
         "url": "http://dblp.uni-trier.de/db/journals/jsis/"
     },
     {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "DSE",
+        "full-name": "Data Science and Engineering",
+        "publisher": "CCF",
+        "url": "https://dblp.org/db/journals/dase/index.html"
+    },
+    {
         "ccf-rank": "CCF-A",
         "abbreviation": "SIGMOD",
         "full-name": "ACM Conference on Management of Data",
@@ -2240,6 +2324,13 @@
         "url": "http://dblp.uni-trier.de/db/conf/sdm/"
     },
     {
+        "ccf-rank": "CCF-B",
+        "abbreviation": "RecSys",
+        "full-name": "ACM Conference on Recommender Systems",
+        "publisher": "ACM",
+        "url": "https://dblp.org/db/conf/recsys/index.html"
+    },
+    {
         "ccf-rank": "CCF-C",
         "abbreviation": "APWeb",
         "full-name": "Asia Pacific Web Conference",
@@ -2322,6 +2413,13 @@
         "full-name": "Web Information Systems Engineering",
         "publisher": "Springer",
         "url": "http://dblp.uni-trier.de/db/conf/wise/"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "ADMA",
+        "full-name": "International Conference on Advanced Data Mining and Applications",
+        "publisher": "Springer",
+        "url": "https://dblp.org/db/conf/adma/index.html"
     },
     {
         "ccf-rank": "CCF-A",
@@ -2611,6 +2709,13 @@
         "url": "http://dblp.uni-trier.de/db/conf/sat/"
     },
     {
+        "ccf-rank": "CCF-B",
+        "abbreviation": "COCOON",
+        "full-name": "International Computing and Combinatorics Conference",
+        "publisher": "Springer",
+        "url": "https://dblp.org/db/conf/cocoon/index.html"
+    },
+    {
         "ccf-rank": "CCF-C",
         "abbreviation": "CSL",
         "full-name": "Computer Science Logic",
@@ -2679,6 +2784,13 @@
         "full-name": "Symposium on Theoretical Aspects of Computer Science",
         "publisher": "Springer",
         "url": "http://dblp.uni-trier.de/db/conf/stacs/"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "SETTA",
+        "full-name": "International Symposium on Dependable Software Engineering: Theories, Tools, and Applications",
+        "publisher": "Springer",
+        "url": "https://dblp.org/db/conf/setta/index.html"
     },
     {
         "ccf-rank": "CCF-A",
@@ -2854,6 +2966,13 @@
         "full-name": "The Visual Computer",
         "publisher": "Springer",
         "url": "http://dblp.uni-trier.de/db/journals/vc/"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "CVMJ",
+        "full-name": "Computational Visual Media",
+        "publisher": "TsinghuaUniversity;Springer",
+        "url": "https://dblp.org/db/journals/cvm/index.html"
     },
     {
         "ccf-rank": "CCF-A",
@@ -3059,6 +3178,27 @@
         "url": "http://dblp.uni-trier.de/db/conf/smi/"
     },
     {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "ICVRV",
+        "full-name": "International Conference on Virtual Reality and Visualization",
+        "publisher": "IEEE",
+        "url": "https://www.computer.org/csdl/proceedings/1800579"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "CVM",
+        "full-name": "Computational Visual Media",
+        "publisher": "TsinghuaUniversity",
+        "url": "https://dblp.org/db/conf/cvm/index.html"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "PRCV",
+        "full-name": "Chinese Conference on Pattern Recognition and Computer Vision",
+        "publisher": "Springer",
+        "url": "https://dblp.org/db/conf/prcv/index.html"
+    },
+    {
         "ccf-rank": "CCF-A",
         "abbreviation": "AI",
         "full-name": "Artificial Intelligence",
@@ -3232,6 +3372,13 @@
         "full-name": "Pattern Recognition",
         "publisher": "Elsevier",
         "url": "http://dblp.uni-trier.de/db/conf/par/"
+    },
+    {
+        "ccf-rank": "CCF-B",
+        "abbreviation": "TACL",
+        "full-name": "Transactions of the Association for Computational Linguistics",
+        "publisher": "The Association for Computational Linguistics",
+        "url": "https://dblp.org/db/journals/tacl/index.html"
     },
     {
         "ccf-rank": "CCF-C",
@@ -3486,6 +3633,13 @@
         "url": "http://dblp.uni-trier.de/db/journals/wias/"
     },
     {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "TIIS",
+        "full-name": "ACM Transactions on Interactive Intelligent Systems",
+        "publisher": "ACM",
+        "url": "https://dblp.org/db/journals/tiis/index.html"
+    },
+    {
         "ccf-rank": "CCF-A",
         "abbreviation": "AAAI",
         "full-name": "AAAI Conference on Artificial Intelligence",
@@ -3617,6 +3771,13 @@
         "full-name": "Parallel Problem Solving from Nature",
         "publisher": "Springer",
         "url": "http://dblp.uni-trier.de/db/conf/ppsn/"
+    },
+    {
+        "ccf-rank": "CCF-B",
+        "abbreviation": "NAACL",
+        "full-name": "North American Chapter of the Association for Computational Linguistics",
+        "publisher": "Association for Computational Linguistics",
+        "url": "http://dblp.uni-trier.de/db/conf/naacl/"
     },
     {
         "ccf-rank": "CCF-C",
@@ -3759,13 +3920,6 @@
         "url": "http://dblp.uni-trier.de/db/conf/pricai/"
     },
     {
-        "ccf-rank": "CCF-C",
-        "abbreviation": "NAACL",
-        "full-name": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
-        "publisher": "NAACL",
-        "url": "http://dblp.uni-trier.de/db/conf/naacl/"
-    },
-    {
         "ccf-rank": "CCF-A",
         "abbreviation": "TOCHI",
         "full-name": "ACM Transactions on Computer-Human Interaction",
@@ -3822,6 +3976,13 @@
         "url": "http://dblp.uni-trier.de/db/journals/umuai/"
     },
     {
+        "ccf-rank": "CCF-B",
+        "abbreviation": "TSMC",
+        "full-name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+        "publisher": "IEEE",
+        "url": "https://dblp.org/db/journals/tsmc/tsmc12.html"
+    },
+    {
         "ccf-rank": "CCF-C",
         "abbreviation": "BIT",
         "full-name": "Behaviour & Information Technology",
@@ -3843,6 +4004,13 @@
         "url": "http://dblp.uni-trier.de/db/journals/percom/"
     },
     {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "PACMHCI",
+        "full-name": "Proceedings of the ACM on Human- Computer Interaction",
+        "publisher": "ACM",
+        "url": "https://dblp.org/db/journals/pacmhci/index.html"
+    },
+    {
         "ccf-rank": "CCF-A",
         "abbreviation": "CSCW",
         "full-name": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
@@ -3862,6 +4030,13 @@
         "full-name": "ACM International Conference on Ubiquitous Computing",
         "publisher": "ACM",
         "url": "http://dblp.uni-trier.de/db/conf/huc/"
+    },
+    {
+        "ccf-rank": "CCF-A",
+        "abbreviation": "UIST",
+        "full-name": "ACM Symposium on User Interface Software and Technology",
+        "publisher": "ACM",
+        "url": "http://dblp.uni-trier.de/db/conf/uist/"
     },
     {
         "ccf-rank": "CCF-B",
@@ -3886,13 +4061,6 @@
     },
     {
         "ccf-rank": "CCF-B",
-        "abbreviation": "UIST",
-        "full-name": "ACM Symposium on User Interface Software and Technology",
-        "publisher": "ACM",
-        "url": "http://dblp.uni-trier.de/db/conf/uist/"
-    },
-    {
-        "ccf-rank": "CCF-B",
         "abbreviation": "ECSCW",
         "full-name": "European Conference on Computer Supported Cooperative Work",
         "publisher": "Springer",
@@ -3911,6 +4079,13 @@
         "full-name": "International Conference on Human Computer Interaction with Mobile Devices and Services",
         "publisher": "ACM",
         "url": "http://dblp.uni-trier.de/db/conf/mhci/"
+    },
+    {
+        "ccf-rank": "CCF-B",
+        "abbreviation": "ICWSM",
+        "full-name": "The International AAAI Conference on Web and Social Media",
+        "publisher": "AAAI",
+        "url": "https://dblp.org/db/conf/icwsm/index.html"
     },
     {
         "ccf-rank": "CCF-C",
@@ -4018,6 +4193,13 @@
         "url": "http://dblp.uni-trier.de/db/journals/pieee/"
     },
     {
+        "ccf-rank": "CCF-A",
+        "abbreviation": "SCIS",
+        "full-name": "Science China Information Sciences",
+        "publisher": "Science in China Press/Springer",
+        "url": "http://dblp.uni-trier.de/db/journals/chinaf/"
+    },
+    {
         "ccf-rank": "CCF-B",
         "abbreviation": "",
         "full-name": "Bioinformatics",
@@ -4104,23 +4286,23 @@
     {
         "ccf-rank": "CCF-B",
         "abbreviation": "",
-        "full-name": "Science China Information Sciences",
-        "publisher": "Science in China Press/Springer",
-        "url": "http://dblp.uni-trier.de/db/journals/chinaf/"
-    },
-    {
-        "ccf-rank": "CCF-B",
-        "abbreviation": "",
         "full-name": "The Computer Journal",
         "publisher": "Oxford University Press",
         "url": "http://dblp.uni-trier.de/db/journals/cj/"
     },
     {
         "ccf-rank": "CCF-B",
-        "abbreviation": "",
-        "full-name": "World Wide Web Journal",
+        "abbreviation": "WWW",
+        "full-name": "World Wide Web",
         "publisher": "Springer",
-        "url": "http://dblp.uni-trier.de/db/journals/wwwj/"
+        "url": "https://dblp.org/db/journals/www/index.html"
+    },
+    {
+        "ccf-rank": "CCF-B",
+        "abbreviation": "FCS",
+        "full-name": "Frontiers of Computer Science",
+        "publisher": "Higher Education Press",
+        "url": "http://dblp.uni-trier.de/db/journals/fcsc/"
     },
     {
         "ccf-rank": "CCF-C",
@@ -4135,13 +4317,6 @@
         "full-name": "Cybernetics and Systems",
         "publisher": "Taylor & Francis",
         "url": "http://dblp.uni-trier.de/db/journals/cas/"
-    },
-    {
-        "ccf-rank": "CCF-C",
-        "abbreviation": "FCS",
-        "full-name": "Frontiers of Computer Science",
-        "publisher": "Higher Education Press",
-        "url": "http://dblp.uni-trier.de/db/journals/fcsc/"
     },
     {
         "ccf-rank": "CCF-C",
@@ -4186,6 +4361,48 @@
         "url": "http://dblp.uni-trier.de/db/journals/mia/"
     },
     {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "TII",
+        "full-name": "IEEE Transactions on Industrial Informatics",
+        "publisher": "IEEE",
+        "url": "https://dblp.org/db/journals/tii/index.html"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "TCPS",
+        "full-name": "ACM Transactions on Cyber- Physical Systems",
+        "publisher": "ACM",
+        "url": "https://dblp.org/db/journals/tcps/index.html"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "TOCE",
+        "full-name": "ACM Transactions on Computing Education",
+        "publisher": "ACM",
+        "url": "https://dblp.org/db/journals/jeric/index.html"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "FITEE",
+        "full-name": "Frontiers of Information Technology & Electronic Engineering",
+        "publisher": "Springer",
+        "url": "https://dblp.org/db/journals/jzusc/index.html"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "TCSS",
+        "full-name": "IEEE Transactions on Computational Social Systems",
+        "publisher": "IEEE",
+        "url": "https://dblp.org/db/journals/tcss/index.html"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "",
+        "full-name": "IEEE Transactions on Reliability",
+        "publisher": "IEEE",
+        "url": "https://dblp.org/db/journals/tr/index.html"
+    },
+    {
         "ccf-rank": "CCF-A",
         "abbreviation": "WWW",
         "full-name": "International World Wide Web Conferences",
@@ -4198,6 +4415,13 @@
         "full-name": "Real-Time Systems Symposium",
         "publisher": "IEEE",
         "url": "http://dblp.uni-trier.de/db/conf/rtss/"
+    },
+    {
+        "ccf-rank": "CCF-A",
+        "abbreviation": "WINE",
+        "full-name": "Conference on Web and Internet Economics",
+        "publisher": "Springer",
+        "url": "https://dblp.org/db/conf/wine/index.html"
     },
     {
         "ccf-rank": "CCF-B",
@@ -4233,6 +4457,13 @@
         "full-name": "International Conference on Research in Computational Molecular Biology",
         "publisher": "Springer",
         "url": "http://dblp.uni-trier.de/db/conf/recomb/"
+    },
+    {
+        "ccf-rank": "CCF-B",
+        "abbreviation": "MICCAI",
+        "full-name": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        "publisher": "Springer",
+        "url": "https://dblp.org/db/conf/miccai/index.html"
     },
     {
         "ccf-rank": "CCF-C",
@@ -4282,5 +4513,27 @@
         "full-name": "International Symposium on Bioinformatics Research and Applications",
         "publisher": "Springer",
         "url": "https://dblp.uni-trier.de/db/conf/isbra/"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "SAGT",
+        "full-name": "International Symposium on Algorithmic Game Theory",
+        "publisher": "Springer",
+        "url": "https://dblp.org/db/conf/sagt/index.html"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "SIGSPATIAL",
+        "full-name": "ACM Special Interest Group on Spatial Information",
+        "publisher": "ACM",
+        "url": "https://dblp.org/db/journals/sigspatial/index.html"
+    },
+    {
+        "ccf-rank": "CCF-C",
+        "abbreviation": "ICIC",
+        "full-name": "International Conference on Intelligent Computing",
+        "publisher": "Springer-Nature",
+        "url": "https://dblp.org/db/conf/icic/index.html"
     }
+    
 ]

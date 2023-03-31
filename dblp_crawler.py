@@ -9,7 +9,7 @@ import urllib
 import json
 import os
 
-ccf_json_path = 'CCF_rank_2019.json'
+ccf_json_path = 'CCF_rank_2022.json'
 ccf_rank = []
 ccf_abbreviation = []
 ccf_abbreviation_lower = []
