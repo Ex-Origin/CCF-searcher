@@ -1,8 +1,6 @@
 .ipynb_checkpoints
 __pycache__
-dblp_crawler_output.json
-abstract_crawler_input.json
-abstract_crawler_output.json
+dblp_crawler_output.csv
 *.zip
 *.tar.gz
 ccf_searcher.ipynb

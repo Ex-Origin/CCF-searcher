@@ -1,0 +1,649 @@
+ccf-rank,abbreviation,ccf-name,publisher,url
+CCF-A,TOCS,ACM Transactions on Computer Systems,ACM,http://dblp.uni-trier.de/db/journals/tocs/
+CCF-A,TOS,ACM Transactions on Storage,ACM,http://dblp.uni-trier.de/db/journals/tos/
+CCF-A,TCAD,IEEE Transactions on Computer-Aided Design of Integrated Circuits And System,IEEE,http://dblp.uni-trier.de/db/journals/tcad/
+CCF-A,TC,IEEE Transactions on Computers,IEEE,http://dblp.uni-trier.de/db/journals/tc/index.html
+CCF-A,TPDS,IEEE Transactions on Parallel and Distributed Systems,IEEE,http://dblp.uni-trier.de/db/journals/tpds/
+CCF-A,TACO,ACM Transactions on Architecture and Code Optimization,ACM,http://dblp.uni-trier.de/db/journals/taco/
+CCF-B,TAAS,ACM Transactions on Autonomous and Adaptive Systems,ACM,http://dblp.uni-trier.de/db/journals/taas/
+CCF-B,TODAES,ACM Transactions on Design Automation of Electronic Systems,ACM,http://dblp.uni-trier.de/db/journals/todaes/
+CCF-B,TECS,ACM Transactions on Embedded Computing Systems,ACM,http://dblp.uni-trier.de/db/journals/tecs/
+CCF-B,TRETS,ACM Transactions on Reconfigurable Technology and Systems,ACM,http://dblp.uni-trier.de/db/journals/trets/
+CCF-B,TVLSI,IEEE Transactions on Very Large Scale Integration (VLSI) Systems,IEEE,http://dblp.uni-trier.de/db/journals/tvlsi/
+CCF-B,JPDC,Journal of Parallel and Distributed Computing,Elsevier,http://dblp.uni-trier.de/db/journals/jpdc/
+CCF-B,JSA,Journal of Systems Architecture: Embedded Software Design,Elsevier,http://dblp.uni-trier.de/db/journals/jsa/
+CCF-B,,Parallel Computing,Elsevier,https://dblp.uni-trier.de/db/journals/pc/index.html
+CCF-B,,Performance Evaluation: An International Journal,Elsevier,https://dblp.uni-trier.de/db/journals/pe/index.html
+CCF-C,JETC,ACM Journal on Emerging Technologies in Computing Systems,ACM,http://dblp.uni-trier.de/db/journals/jetc/
+CCF-C,,Concurrency and Computation: Practice and Experience,Wiley,http://dblp.uni-trier.de/db/journals/concurrency/
+CCF-C,DC,Distributed Computing,Springer,http://dblp.uni-trier.de/db/journals/dc/
+CCF-C,FGCS,Future Generation Computer Systems,Elsevier,http://dblp.uni-trier.de/db/journals/fgcs/
+CCF-C,TCC,IEEE Transactions on Cloud Computing,IEEE,https://dblp.uni-trier.de/db/journals/tcc/
+CCF-C,Integration,"Integration, the VLSI Journal",Elsevier,http://dblp.uni-trier.de/db/journals/integration/
+CCF-C,JETTA,Journal of Electronic Testing-Theory and Applications,Springer,https://dblp.uni-trier.de/db/journals/et/index.html
+CCF-C,JGC,Journal of Grid computing,Springer,https://dblp.uni-trier.de/db/journals/grid/
+CCF-C,RTS,Real-Time Systems,Springer,http://dblp.uni-trier.de/db/journals/rts/
+CCF-C,TJSC,The Journal of Supercomputing,Springer,http://dblp.uni-trier.de/db/journals/tjs/
+CCF-C,TCASI,IEEE Transactions on Circuits and Systems I: Regular Papers,IEEE,https://dblp.uni-trier.de/db/journals/tcasI/index.html
+CCF-C,CCF-THPC,CCF Transactions on High Performance Computing,CCF,https://dblp.uni-trier.de/db/journals/ccfthpc/index.html
+CCF-C,TSUSC,IEEE Transactions on Sustainable Computing,IEEE,https://dblp.uni-trier.de/db/journals/tsusc/index.html
+CCF-A,PPoPP,ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming,ACM,http://dblp.uni-trier.de/db/conf/ppopp/
+CCF-A,FAST,Conference on File and Storage Technologies,USENIX,http://dblp.uni-trier.de/db/conf/fast/
+CCF-A,DAC,Design Automation Conference,ACM,https://dblp.uni-trier.de/db/conf/dac/
+CCF-A,HPCA,High Performance Computer Architecture,IEEE,http://dblp.uni-trier.de/db/conf/hpca/
+CCF-A,MICRO,IEEE/ACM International Symposium on Microarchitecture,IEEE/ACM,https://dblp.uni-trier.de/db/conf/micro/
+CCF-A,SC,"International Conference for High Performance Computing, Networking, Storage, and Analysis",IEEE,http://dblp.uni-trier.de/db/conf/sc/
+CCF-A,ASPLOS,International Conference on Architectural Support for Programming Languages and Operating Systems,ACM,http://dblp.uni-trier.de/db/conf/asplos/
+CCF-A,ISCA,International Symposium on Computer Architecture,ACM /IEEE,http://dblp.uni-trier.de/db/conf/isca/
+CCF-A,USENIX ATC,USENIX Annual Technical Conference,USENIX,http://dblp.uni-trier.de/db/conf/usenix/index.html
+CCF-A,EuroSys,European Conference on Computer Systems,ACM,http://dblp.uni-trier.de/db/conf/eurosys/
+CCF-B,SoCC,ACM Symposium on Cloud Computing,ACM,http://dblp.uni-trier.de/db/conf/cloud/
+CCF-B,SPAA,ACM Symposium on Parallelism in Algorithms and Architectures,ACM,http://dblp.uni-trier.de/db/conf/spaa/
+CCF-B,PODC,ACM Symposium on Principles of Distributed Computing,ACM,http://dblp.uni-trier.de/db/conf/podc/
+CCF-B,FPGA,ACM/SIGDA International Symposium on Field-Programmable Gate Arrays,ACM,http://dblp.uni-trier.de/db/conf/fpga/
+CCF-B,CGO,Code Generation and Optimization,IEEE/ACM,http://dblp.uni-trier.de/db/conf/cgo/
+CCF-B,DATE,"Design, Automation & Test in Europe",IEEE/ACM,http://dblp.uni-trier.de/db/conf/date/
+CCF-B,HOT CHIPS,Hot Chips: A Symposium on High Performance Chips,IEEE,https://dblp.uni-trier.de/db/conf/hotchips/index.html
+CCF-B,CLUSTER,IEEE International Conference on Cluster Computing,IEEE,https://dblp.uni-trier.de/db/conf/cluster/
+CCF-B,ICCD,International Conference on Computer Design,IEEE,http://dblp.uni-trier.de/db/conf/iccd/
+CCF-B,ICCAD,International Conference on Computer-Aided Design,IEEE/ACM,http://dblp.uni-trier.de/db/conf/iccad/
+CCF-B,ICDCS,International Conference on Distributed Computing Systems,IEEE,http://dblp.uni-trier.de/db/conf/icdcs/
+CCF-B,CODES+ISSS,International Conference on Hardware/Software Co-design and System Synthesis,ACM/ IEEE,http://dblp.uni-trier.de/db/conf/codes/index.html
+CCF-B,HiPEAC,International Conference on High Performance and Embedded Architectures and Compilers,ACM,http://dblp.uni-trier.de/db/conf/hipeac/
+CCF-B,SIGMETRICS,International Conference on Measurement and Modeling of Computer Systems,ACM,http://dblp.uni-trier.de/db/conf/sigmetrics/
+CCF-B,PACT,International Conference on Parallel Architectures and Compilation Techniques,IEEE/ACM,http://dblp.uni-trier.de/db/conf/IEEEpact/
+CCF-B,ICPP,International Conference on Parallel Processing,,http://dblp.uni-trier.de/db/conf/icpp/
+CCF-B,ICS,International Conference on Supercomputing,ACM,http://dblp.uni-trier.de/db/conf/ics/
+CCF-B,VEE,International Conference on Virtual Execution Environments,ACM,http://dblp.uni-trier.de/db/conf/vee/
+CCF-B,IPDPS,International Parallel & Distributed Processing Symposium,IEEE,http://dblp.uni-trier.de/db/conf/ipps/
+CCF-B,Performance,"International Symposium on Computer Performance Modeling, Measurements and Evaluation",ACM,http://dblp.uni-trier.de/db/conf/performance/
+CCF-B,HPDC,International Symposium on High Performance Distributed Computing,IEEE,http://dblp.uni-trier.de/db/conf/hpdc/
+CCF-B,ITC,International Test Conference,IEEE,http://dblp.uni-trier.de/db/conf/itc/
+CCF-B,LISA,Large Installation System Administration Conference,USENIX,http://dblp.uni-trier.de/db/conf/lisa/
+CCF-B,MSST,Mass Storage Systems and Technologies,IEEE,http://dblp.uni-trier.de/db/conf/mss/
+CCF-B,RTAS,Real-Time and Embedded Technology and Applications Symposium,IEEE,http://dblp.uni-trier.de/db/conf/rtas/
+CCF-C,Euro-Par,European Conference on Parallel and Distributed Computing,Springer,http://dblp.uni-trier.de/db/conf/europar/
+CCF-C,CF,ACM International Conference on Computing Frontiers,ACM,http://dblp.uni-trier.de/db/conf/cf
+CCF-C,SYSTOR,ACM International Systems and Storage Conference,ACM,http://dblp.uni-trier.de/db/conf/systor/index.html
+CCF-C,NOCS,ACM/IEEE International Symposium on Networks-on-Chip,ACM/IEEE,http://dblp.uni-trier.de/db/conf/nocs
+CCF-C,ASAP,"Application-Specific Systems, Architectures, and Processors",IEEE,http://dblp.uni-trier.de/db/conf/asap
+CCF-C,ASP-DAC,Asia and South Pacific Design Automation Conference,ACM/IEEE,http://dblp.uni-trier.de/db/conf/aspdac
+CCF-C,ETS,European Test Symposium,IEEE,http://dblp.uni-trier.de/db/conf/ets/
+CCF-C,FPL,Field Programmable Logic and Applications,IEEE,http://dblp.uni-trier.de/db/conf/fpl/
+CCF-C,FCCM,Field-Programmable Custom Computing Machines,IEEE,http://dblp.uni-trier.de/db/conf/fccm/
+CCF-C,GLSVLSI,Great Lakes Symposium on VLSI,ACM/IEEE,http://dblp.uni-trier.de/db/conf/glvlsi/
+CCF-C,ATS,IEEE Asian Test Symposium,IEEE,http://dblp.uni-trier.de/db/conf/ats/
+CCF-C,HPCC,IEEE International Conference on High Performance Computing and Communications,IEEE,http://dblp.uni-trier.de/db/conf/hpcc/
+CCF-C,HiPC,"IEEE International Conference on High Performance Computing, Data and Analytics",IEEE/ ACM,http://dblp.uni-trier.de/db/conf/hipc/index.html
+CCF-C,MASCOTS,"IEEE International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",IEEE,http://dblp.uni-trier.de/db/conf/mascots/
+CCF-C,ISPA,IEEE International Symposium on Parallel and Distributed Processing with Applications,IEEE,http://dblp.uni-trier.de/db/conf/ispa/
+CCF-C,CCGRID,"IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing",ACM/IEEE,http://dblp.uni-trier.de/db/conf/ccgrid/
+CCF-C,NPC,IFIP International Conference on Network and Parallel Computing,Springer,http://dblp.uni-trier.de/db/conf/npc/
+CCF-C,ICA3PP,International Conference on Algorithms and Architectures for Parallel Processing,IEEE,http://dblp.uni-trier.de/db/conf/ica3pp/
+CCF-C,CASES,"International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",ACM,http://dblp.uni-trier.de/db/conf/cases/index.html
+CCF-C,FPT,International Conference on Field-Programmable Technology,IEEE,http://dblp.uni-trier.de/db/conf/fpt/
+CCF-C,ICPADS,International Conference on Parallel and Distributed Systems,IEEE,http://dblp.uni-trier.de/db/conf/icpads/
+CCF-C,ISCAS,International Symposium on Circuits and Systems,IEEE,http://dblp.uni-trier.de/db/conf/iscas/
+CCF-C,ISLPED,International Symposium on Low Power Electronics and Design,ACM/IEEE,http://dblp.uni-trier.de/db/conf/islped/
+CCF-C,ISPD,International Symposium on Physical Design,ACM,http://dblp.uni-trier.de/db/conf/ispd/
+CCF-C,HotI,Symposium on High-Performance Interconnects,IEEE,http://dblp.uni-trier.de/db/conf/hoti/
+CCF-C,VTS,VLSI Test Symposium,IEEE,http://dblp.uni-trier.de/db/conf/vts/
+CCF-C,ITC-Asia,International Test Conference in Asia,IEEE,https://dblp.uni-trier.de/db/conf/itc-asia/index.html
+CCF-A,JSAC,IEEE Journal of Selected Areas in Communications,IEEE,http://dblp.uni-trier.de/db/journals/jsac/
+CCF-A,TMC,IEEE Transactions on Mobile Computing,IEEE,http://dblp.uni-trier.de/db/journals/tmc/
+CCF-A,TON,IEEE/ACM Transactions on Networking,IEEE/ACM,http://dblp.uni-trier.de/db/journals/ton/
+CCF-B,TOIT,ACM Transactions on Internet Technology,ACM,http://dblp.uni-trier.de/db/journals/toit/
+CCF-B,TOMCCAP,"ACM Transactions on Multimedia Computing, Communications and Applications",ACM,http://dblp.uni-trier.de/db/journals/tomccap/
+CCF-B,TOSN,ACM Transactions on Sensor Networks,ACM,http://dblp.uni-trier.de/db/journals/tosn/
+CCF-B,CN,Computer Networks,Elsevier,http://dblp.uni-trier.de/db/journals/cn/
+CCF-B,TCOM,IEEE Transactions on Communications,IEEE,http://dblp.uni-trier.de/db/journals/tcom/
+CCF-B,TWC,IEEE Transactions on Wireless Communications,IEEE,http://dblp.uni-trier.de/db/journals/twc/
+CCF-C,,Ad Hoc Networks,Elsevier,http://dblp.uni-trier.de/db/journals/adhoc/
+CCF-C,CC,Computer Communications,Elsevier,http://dblp.uni-trier.de/db/journals/comcom/
+CCF-C,TNSM,IEEE Transactions on Network and Service Management,IEEE,http://dblp.uni-trier.de/db/journals/tnsm/
+CCF-C,,IET Communications,IET,http://dblp.uni-trier.de/db/journals/iet-com/
+CCF-C,JNCA,Journal of Network and Computer Applications,Elsevier,http://dblp.uni-trier.de/db/journals/jnca/
+CCF-C,MONET,Mobile Networks & Applications,Springer,http://dblp.uni-trier.de/db/journals/monet/
+CCF-C,,Networks,Wiley,http://dblp.uni-trier.de/db/journals/networks/
+CCF-C,PPNA,Peer-to-Peer Networking and Applications,Springer,http://dblp.uni-trier.de/db/journals/ppna/
+CCF-C,WCMC,Wireless Communications & Mobile Computing,Wiley.,http://dblp.uni-trier.de/db/journals/wicomm/
+CCF-C,,Wireless Networks,Springer,http://dblp.uni-trier.de/db/journals/winet/
+CCF-C,IOT,IEEE Internet of Things Journal,IEEE,https://dblp.uni-trier.de/db/journals/iot/index.html
+CCF-A,SIGCOMM,"ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",ACM,http://dblp.uni-trier.de/db/conf/sigcomm/index.html
+CCF-A,MobiCom,ACM International Conference on Mobile Computing and Networking,ACM,http://dblp.uni-trier.de/db/conf/mobicom/
+CCF-A,INFOCOM,IEEE International Conference on Computer Communications,IEEE,http://dblp.uni-trier.de/db/conf/infocom/
+CCF-A,NSDI,Symposium on Network System Design and Implementation,USENIX,http://dblp.uni-trier.de/db/conf/nsdi/
+CCF-B,SenSys,ACM Conference on Embedded Networked Sensor Systems,ACM,http://dblp.uni-trier.de/db/conf/sensys/
+CCF-B,CoNEXT,ACM International Conference on Emerging Networking Experiments and Technologies,ACM,http://dblp.uni-trier.de/db/conf/conext/
+CCF-B,SECON,IEEE Communications Society Conference on Sensor and Ad Hoc Communications and Networks,IEEE,http://dblp.uni-trier.de/db/conf/secon/
+CCF-B,IPSN,International Conference on Information Processing in Sensor Networks,IEEE/ACM,http://dblp.uni-trier.de/db/conf/ipsn/
+CCF-B,MobiSys,"International Conference on Mobile Systems, Applications, and Services",ACM,http://dblp.uni-trier.de/db/conf/mobisys/
+CCF-B,ICNP,International Conference on Network Protocols,IEEE,http://dblp.uni-trier.de/db/conf/icnp/
+CCF-B,MobiHoc,International Symposium on Mobile Ad Hoc Networking and Computing,ACM/IEEE,http://dblp.uni-trier.de/db/conf/mobihoc/
+CCF-B,NOSSDAV,International Workshop on Network and Operating System Support for Digital Audio and Video,ACM,http://dblp.uni-trier.de/db/conf/nossdav/
+CCF-B,IWQoS,International Workshop on Quality of Service,IEEE,http://dblp.uni-trier.de/db/conf/iwqos/
+CCF-B,IMC,Internet Measurement Conference,ACM/USENIX,http://dblp.uni-trier.de/db/conf/imc/
+CCF-C,ANCS,Architectures for Networking and Communications Systems,ACM/IEEE,http://dblp.uni-trier.de/db/conf/ancs/
+CCF-C,APNOMS,Asia-Pacific Network Operations and Management Symposium,IFIP/IEEE,http://dblp.uni-trier.de/db/conf/apnoms/
+CCF-C,FORTE,Formal Techniques for Networked and Distributed Systems,Springer,http://dblp.uni-trier.de/db/conf/forte/
+CCF-C,LCN,IEEE Conference on Local Computer Networks,IEEE,http://dblp.uni-trier.de/db/conf/lcn/
+CCF-C,GLOBECOM,IEEE Global Communications Conference,IEEE,http://dblp.uni-trier.de/db/conf/globecom/
+CCF-C,ICC,IEEE International Conference on Communications,IEEE,http://dblp.uni-trier.de/db/conf/icc/
+CCF-C,ICCCN,IEEE International Conference on Computer Communications and Networks,IEEE,http://dblp.uni-trier.de/db/conf/icccn/
+CCF-C,MASS,IEEE International Conference on Mobile Ad-hoc and Sensor Systems,IEEE,http://dblp.uni-trier.de/db/conf/mass/index.html
+CCF-C,P2P,IEEE International Conference on Peer-to-Peer Computing,IEEE,http://dblp.uni-trier.de/db/conf/p2p/
+CCF-C,IPCCC,IEEE International Performance Computing and Communications Conference,IEEE,http://dblp.uni-trier.de/db/conf/ipccc/
+CCF-C,WoWMoM,"IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",IEEE,http://dblp.uni-trier.de/db/conf/wowmom/
+CCF-C,ISCC,IEEE Symposium on Computers and Communications,IEEE,http://dblp.uni-trier.de/db/conf/iscc/
+CCF-C,WCNC,IEEE Wireless Communications & Networking Conference,IEEE,http://dblp.uni-trier.de/db/conf/wcnc/
+CCF-C,Networking,IFIP International Conferences on Networking,IFIP,http://dblp.uni-trier.de/db/conf/networking/index.html
+CCF-C,IM,IFIP/IEEE International Symposium on Integrated Network Management,IFIP/IEEE,http://dblp.uni-trier.de/db/conf/im/index.html
+CCF-C,MSN,International Conference on Mobile Ad-hoc and Sensor Networks,IEEE,https://dblp.uni-trier.de/db/conf/msn/
+CCF-C,MSWiM,"International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",ACM,http://dblp.uni-trier.de/db/conf/mswim/
+CCF-C,WASA,"International Conference on Wireless Algorithms, Systems, and Applications",Springer,http://dblp.uni-trier.de/db/conf/wasa/
+CCF-C,HotNets,The Workshop on Hot Topics in Networks,ACM,http://dblp.uni-trier.de/db/conf/hotnets/
+CCF-C,APNet,Asia-Pacific Workshop on Networking,ACM,https://dblp.uni-trier.de/db/conf/apnet/index.html
+CCF-A,TDSC,IEEE Transactions on Dependable and Secure Computing,IEEE,http://dblp.uni-trier.de/db/journals/tdsc/
+CCF-A,TIFS,IEEE Transactions on Information Forensics and Security,IEEE,http://dblp.uni-trier.de/db/journals/tifs/
+CCF-A,,Journal of Cryptology,Springer,http://dblp.uni-trier.de/db/journals/joc/
+CCF-B,TOPS,ACM Transactions on Privacy and Security,ACM,https://dblp.uni-trier.de/db/journals/tissec/index.html
+CCF-B,,Computers & Security,Elsevier,http://dblp.uni-trier.de/db/journals/compsec/
+CCF-B,,"Designs, Codes and Cryptography",Springer,http://dblp.uni-trier.de/db/journals/dcc/
+CCF-B,JCS,Journal of Computer Security,IOS Press,http://dblp.uni-trier.de/db/journals/jcs/
+CCF-C,CLSR,Computer Law and Security Review,Elsevier,https://dblp.uni-trier.de/db/journals/clsr/index.html
+CCF-C,,EURASIP Journal on Information Security,Springer,http://dblp.uni-trier.de/db/journals/ejisec/
+CCF-C,,IET Information Security,IET,http://dblp.uni-trier.de/db/journals/iet-ifs/
+CCF-C,IMCS,Information Management & Computer Security,Emerald,http://dblp.uni-trier.de/db/journals/imcs/
+CCF-C,IJICS,International Journal of Information and Computer Security,Inderscience,http://dblp.uni-trier.de/db/journals/ijics/
+CCF-C,IJISP,International Journal of Information Security and Privacy,Idea Group Inc,http://dblp.uni-trier.de/db/journals/ijisp/
+CCF-C,JISA,Journal of Information Security and Application,Elsevier,https://dblp.uni-trier.de/db/journals/istr/
+CCF-C,SCN,Security and Communication Networks,Wiley,http://dblp.uni-trier.de/db/journals/scn/
+CCF-C,,Cybersecurity,Springer,https://dblp.uni-trier.de/db/journals/cybersec/index.html
+CCF-A,CCS,ACM Conference on Computer and Communications Security,ACM,http://dblp.uni-trier.de/db/conf/ccs/
+CCF-A,EUROCRYPT,European Cryptology Conference,Springer,http://dblp.uni-trier.de/db/conf/eurocrypt/
+CCF-A,S&P,IEEE Symposium on Security and Privacy,IEEE,http://dblp.uni-trier.de/db/conf/sp/
+CCF-A,CRYPTO,International Cryptology Conference,Springer,http://dblp.uni-trier.de/db/conf/crypto/
+CCF-A,USENIX Security,Usenix Security Symposium,USENIX Association,http://dblp.uni-trier.de/db/conf/uss/
+CCF-A,NDSS,Network and Distributed System Security Symposium,ISOC,http://dblp.uni-trier.de/db/conf/ndss/
+CCF-B,ACSAC,Annual Computer Security Applications Conference,IEEE,http://dblp.uni-trier.de/db/conf/acsac/
+CCF-B,ASIACRYPT,Annual International Conference on the Theory and Application of Cryptology and Information Security,Springer,http://dblp.uni-trier.de/db/conf/asiacrypt/
+CCF-B,ESORICS,European Symposium on Research in Computer Security,Springer,http://dblp.uni-trier.de/db/conf/esorics/
+CCF-B,FSE,Fast Software Encryption,Springer,http://dblp.uni-trier.de/db/conf/fse/
+CCF-B,CSFW,IEEE Computer Security Foundations Workshop,IEEE,http://dblp.uni-trier.de/db/conf/csfw/
+CCF-B,SRDS,IEEE International Symposium on Reliable Distributed Systems,IEEE,http://dblp.uni-trier.de/db/conf/srds/
+CCF-B,CHES,International Conference on Cryptographic Hardware and Embedded Systems,Springer,http://dblp.uni-trier.de/db/conf/ches/
+CCF-B,DSN,International Conference on Dependable Systems and Networks,IEEE/IFIP,http://dblp.uni-trier.de/db/conf/dsn/
+CCF-B,RAID,International Symposium on Recent Advances in Intrusion Detection,Springer,http://dblp.uni-trier.de/db/conf/raid/
+CCF-B,PKC,International Workshop on Practice and Theory in Public Key Cryptography,Springer,http://dblp.uni-trier.de/db/conf/pkc/
+CCF-B,TCC,Theory of Cryptography Conference,Springer,http://dblp.uni-trier.de/db/conf/tcc/
+CCF-C,WiSec,ACM Conference on Security and Privacy in Wireless and Mobile Networks,ACM,http://dblp.uni-trier.de/db/conf/wisec/
+CCF-C,SACMAT,ACM Symposium on Access Control Models and Technologies,ACM,http://dblp.uni-trier.de/db/conf/sacmat/
+CCF-C,DRM,ACM Workshop on Digital Rights Management,ACM,http://dblp.uni-trier.de/db/conf/drm/
+CCF-C,IH&MMSec,ACM Workshop on Information Hiding and Multimedia Security,ACM,http://dblp.uni-trier.de/db/conf/ih/
+CCF-C,ACNS,Applied Cryptography and Network Security,Springer,http://dblp.uni-trier.de/db/conf/acns/
+CCF-C,AsiaCCS,Asia Conference on Computer and Communications Security,ACM,http://dblp.uni-trier.de/db/conf/ccs/
+CCF-C,ACISP,Australasia Conference on Information Security and Privacy,Springer,http://dblp.uni-trier.de/db/conf/acisp/
+CCF-C,CT-RSA,Cryptographer's Track at RSA Conference,Springer,http://dblp.uni-trier.de/db/conf/ctrsa/
+CCF-C,DIMVA,Detection of Intrusions and Malware & Vulnerability Assessment,,http://dblp.uni-trier.de/db/conf/dimva/
+CCF-C,DFRWS,Digital Forensic Research Workshop,Elsevier,http://dblp.uni-trier.de/db/conf/dfrws/
+CCF-C,FC,Financial Cryptography and Data Security,Springer,http://dblp.uni-trier.de/db/conf/fc/
+CCF-C,TrustCom,"IEEE International Conference on Trust, Security and Privacy in Computing and Communications",IEEE,http://dblp.uni-trier.de/db/conf/trustcom/
+CCF-C,SEC,IFIP International Information Security Conference,Springer,http://dblp.uni-trier.de/db/conf/sec/
+CCF-C,IFIP WG 11.9,IFIP WG 11.9 International Conference on Digital Forensics,Springer,https://dblp.uni-trier.de/db/conf/ifip11-9/index.html
+CCF-C,ISC,Information Security Conference,Springer,http://dblp.uni-trier.de/db/conf/isw/
+CCF-C,ICDF2C,International Conference on Digital Forensics & Cyber Crime,Springer,http://dblp.uni-trier.de/db/conf/icdf2c/
+CCF-C,ICICS,International Conference on Information and Communications Security,Springer,http://dblp.uni-trier.de/db/conf/icics/
+CCF-C,SecureComm,International Conference on Security and Privacy in Communication Networks,ACM,http://dblp.uni-trier.de/db/conf/securecomm/
+CCF-C,NSPW,New Security Paradigms Workshop,ACM,http://dblp.uni-trier.de/db/conf/nspw/
+CCF-C,PAM,Passive and Active Measurement Conference,Springer,http://dblp.uni-trier.de/db/conf/pam/
+CCF-C,PETS,Privacy Enhancing Technologies Symposium,Springer,http://dblp.uni-trier.de/db/conf/pet/
+CCF-C,SAC,Selected Areas in Cryptography,Springer,http://dblp.uni-trier.de/db/conf/sacrypt/
+CCF-C,SOUPS,Symposium On Usable Privacy and Security,USENIX,http://dblp.uni-trier.de/db/conf/soups/
+CCF-C,HotSec,USENIX Workshop on Hot Topics in Security,USENIX,http://www.usenix.org/events/
+CCF-C,EuroS&P,IEEE European Symposium on Security and Privacy,IEEE,https://dblp.uni-trier.de/db/conf/eurosp/index.html
+CCF-C,Inscrypt,International Conference on Information Security and Cryptology,Springer,https://dblp.uni-trier.de/db/conf/cisc/index.html
+CCF-A,TOPLAS,ACM Transactions on Programming Languages & Systems,ACM,http://dblp.uni-trier.de/db/journals/toplas/
+CCF-A,TOSEM,ACM Transactions on Software Engineering and Methodology,ACM,http://dblp.uni-trier.de/db/journals/tosem/
+CCF-A,TSE,IEEE Transactions on Software Engineering,IEEE,http://dblp.uni-trier.de/db/journals/tse/
+CCF-A,TSC,IEEE Transactions on Services Computing,IEEE,http://dblp.uni-trier.de/db/journals/tsc/
+CCF-B,ASE,Automated Software Engineering,Springer,http://dblp.uni-trier.de/db/journals/ase/
+CCF-B,ESE,Empirical Software Engineering,Springer,http://dblp.uni-trier.de/db/journals/ese/
+CCF-B,IETS,IET Software,IET,https://dblp.uni-trier.de/db/journals/iet-sen/
+CCF-B,IST,Information and Software Technology,Elsevier,http://dblp.uni-trier.de/db/journals/infsof/index.html
+CCF-B,JFP,Journal of Functional Programming,Cambridge University Press,http://dblp.uni-trier.de/db/journals/jfp/
+CCF-B,,Journal of Software: Evolution and Process,Wiley,http://dblp.uni-trier.de/db/journals/smr/
+CCF-B,JSS,Journal of Systems and Software,Elsevier,http://dblp.uni-trier.de/db/journals/jss/
+CCF-B,RE,Requirements Engineering,Springer,http://dblp.uni-trier.de/db/journals/re/
+CCF-B,SCP,Science of Computer Programming,Elsevier,http://dblp.uni-trier.de/db/journals/scp/
+CCF-B,SoSyM,Software and System Modeling,Springer,http://dblp.uni-trier.de/db/journals/sosym/
+CCF-B,STVR,"Software Testing, Verification and Reliability",Wiley,http://dblp.uni-trier.de/db/journals/stvr/index.html
+CCF-B,SPE,Software: Practice and Experience,Wiley,http://dblp.uni-trier.de/db/journals/spe/
+CCF-C,CL,"Computer Languages, Systems and Structures",Elsevier,http://dblp.uni-trier.de/db/journals/cl/index.html
+CCF-C,IJSEKE,International Journal on Software Engineering and Knowledge Engineering,World Scientific,http://dblp.uni-trier.de/db/journals/ijseke/index.html
+CCF-C,STTT,International Journal on Software Tools for Technology Transfer,Springer,http://dblp.uni-trier.de/db/journals/sttt/
+CCF-C,JLAP,Journal of Logic and Algebraic Programming,Elsevier,http://dblp.uni-trier.de/db/journals/jlp/jlap.html
+CCF-C,JWE,Journal of Web Engineering,Rinton Press,http://dblp.uni-trier.de/db/journals/jwe/
+CCF-C,SOCA,Service Oriented Computing and Applications,Springer,http://dblp.uni-trier.de/db/journals/soca/
+CCF-C,SQJ,Software Quality Journal,Springer,http://dblp.uni-trier.de/db/journals/sqj/
+CCF-C,TPLP,Theory and Practice of Logic Programming,Cambridge University Press,http://dblp.uni-trier.de/db/journals/tplp/
+CCF-C,PACM PL,Proceedings of the ACM on Programming Languages,ACM,https://dblp.uni-trier.de/db/journals/pacmpl/index.html
+CCF-A,PLDI,ACM SIGPLAN Conference on Programming Language Design & Implementation,ACM,http://dblp.uni-trier.de/db/conf/pldi/
+CCF-A,POPL,ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages,ACM,http://dblp.uni-trier.de/db/conf/popl/
+CCF-A,FSE/ESEC,ACM SIGSOFT Symposium on the Foundation of Software Engineering/ European Software Engineering Conference,ACM,http://dblp.uni-trier.de/db/conf/sigsoft/
+CCF-A,SOSP,ACM Symposium on Operating Systems Principles,ACM,http://dblp.uni-trier.de/db/conf/sosp/
+CCF-A,OOPSLA,"Conference on Object-Oriented Programming Systems, Languages, and Applications",ACM,http://dblp.uni-trier.de/db/conf/oopsla/
+CCF-A,ASE,International Conference on Automated Software Engineering,IEEE/ACM,http://dblp.uni-trier.de/db/conf/kbse/
+CCF-A,ICSE,International Conference on Software Engineering,ACM/IEEE,http://dblp.uni-trier.de/db/conf/icse/
+CCF-A,ISSTA,International Symposium on Software Testing and Analysis,ACM,http://dblp.uni-trier.de/db/conf/issta/
+CCF-A,OSDI,USENIX Symposium on Operating Systems Design and Implementations,USENIX,http://dblp.uni-trier.de/db/conf/osdi/
+CCF-A,FM,International Symposium on Formal Methods,FME,http://dblp.uni-trier.de/db/conf/fm/
+CCF-B,ECOOP,European Conference on Object-Oriented Programming,AITO,http://dblp.uni-trier.de/db/conf/ecoop/
+CCF-B,ETAPS,European Joint Conferences on Theory and Practice of Software,Springer,http://dblp.uni-trier.de/db/conf/etaps/
+CCF-B,ICPC,IEEE International Conference on Program Comprehension,IEEE,http://dblp.uni-trier.de/db/conf/iwpc/
+CCF-B,RE,IEEE International Requirement Engineering Conference,IEEE,http://dblp.uni-trier.de/db/conf/re/
+CCF-B,CAiSE,International Conference on Advanced Information Systems Engineering,Springer,http://dblp.uni-trier.de/db/conf/caise/
+CCF-B,ICFP,International Conference on Function Programming,ACM,http://dblp.uni-trier.de/db/conf/icfp/
+CCF-B,LCTES,"International Conference on Languages, Compilers and Tools for Embedded Systems",ACM,http://dblp.uni-trier.de/db/conf/lctrts/
+CCF-B,MoDELS,International Conference on Model Driven Engineering Languages and Systems,"ACM, IEEE",http://dblp.uni-trier.de/db/conf/models/
+CCF-B,CP,International Conference on Principles and Practice of Constraint Programming,Springer,http://dblp.uni-trier.de/db/conf/cp/
+CCF-B,ICSOC,International Conference on Service Oriented Computing,Springer,http://dblp.uni-trier.de/db/conf/icsoc/
+CCF-B,SANER,"International Conference on Software Analysis, Evolution, and Reengineering",IEEE,http://dblp.uni-trier.de/db/conf/wcre/
+CCF-B,ICSME,International Conference on Software Maintenance and Evolution,IEEE,http://dblp.uni-trier.de/db/conf/icsm/
+CCF-B,VMCAI,"International Conference on Verification, Model Checking, and Abstract Interpretation",Springer,http://dblp.uni-trier.de/db/conf/vmcai/
+CCF-B,ICWS,International Conference on Web Services （Research Track）,IEEE,http://dblp.uni-trier.de/db/conf/icws/
+CCF-B,Middleware,International Middleware Conference,ACM/IFIP/ USENIX,http://dblp.uni-trier.de/db/conf/middleware/
+CCF-B,SAS,International Static Analysis Symposium,Springer,http://dblp.uni-trier.de/db/conf/sas/
+CCF-B,ESEM,International Symposium on Empirical Software Engineering and Measurement,ACM/IEEE,http://dblp.uni-trier.de/db/conf/esem/
+CCF-B,ISSRE,International Symposium on Software Reliability Engineering,IEEE,http://dblp.uni-trier.de/db/conf/issre/
+CCF-B,HotOS,USENIX Workshop on Hot Topics in Operating Systems,USENIX,http://dblp.uni-trier.de/db/conf/hotos/
+CCF-C,PEPM,ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation,ACM,http://dblp.uni-trier.de/db/conf/pepm/
+CCF-C,PASTE,ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering,ACM,http://dblp.uni-trier.de/db/conf/paste/
+CCF-C,APLAS,Asian Symposium on Programming Languages and Systems,Springer,http://dblp.uni-trier.de/db/conf/aplas/
+CCF-C,APSEC,Asia-Pacific Software Engineering Conference,IEEE,http://dblp.uni-trier.de/db/conf/apsec/
+CCF-C,EASE,Evaluation and Assessment in Software Engineering,ACM,http://dblp.uni-trier.de/db/conf/ease/
+CCF-C,ICECCS,IEEE International Conference on Engineering of Complex Computer Systems,IEEE,http://dblp.uni-trier.de/db/conf/iceccs/
+CCF-C,ICST,"IEEE International Conference on Software Testing, Verification and Validation",IEEE,http://dblp.uni-trier.de/db/conf/icst/
+CCF-C,ISPASS,IEEE International Symposium on Performance Analysis of Systems and Software,IEEE,http://dblp.uni-trier.de/db/conf/ispass/
+CCF-C,SCAM,IEEE International Working Conference on Source Code Analysis and Manipulation,IEEE,http://dblp.uni-trier.de/db/conf/scam/
+CCF-C,COMPSAC,International Computer Software and Applications Conference,IEEE,http://dblp.uni-trier.de/db/conf/compsac/
+CCF-C,ICFEM,International Conference on Formal Engineering Methods,Springer,http://dblp.uni-trier.de/db/conf/icfem/
+CCF-C,TOOLS,"International Conference on Objects, Models, Components, Patterns",Springer,http://dblp.uni-trier.de/db/conf/tools/index.html
+CCF-C,SCC,International Conference on Service Computing,IEEE,http://dblp.uni-trier.de/db/conf/IEEEscc/
+CCF-C,ICSSP,International Conference on Software and System Process,ACM,http://dblp.uni-trier.de/db/conf/ispw/
+CCF-C,SEKE,International Conference on Software Engineering and Knowledge Engineering,KSI,http://dblp.uni-trier.de/db/conf/seke/
+CCF-C,QRS,"International Conference on Software Quality, Reliability and Security",IEEE,https://dblp.uni-trier.de/db/conf/qrs/
+CCF-C,ICSR,International Conference on Software Reuse,Springer,http://dblp.uni-trier.de/db/conf/icsr/
+CCF-C,ICWE,International Conference on Web Engineering,Springer,http://dblp.uni-trier.de/db/conf/icwe/
+CCF-C,SPIN,International SPIN Workshop on Model Checking Software,Springer,http://dblp.uni-trier.de/db/conf/spin/index.html
+CCF-C,ATVA,International Symposium on Automated Technology for Verification and Analysis,Springer,http://dblp.uni-trier.de/db/conf/atva/
+CCF-C,LOPSTR,International Symposium on Logic-based Program Synthesis and Transformation,Springer,http://dblp.uni-trier.de/db/conf/lopstr/
+CCF-C,TASE,International Symposium on Theoretical Aspects of Software Engineering,IEEE,http://dblp.uni-trier.de/db/conf/tase/
+CCF-C,MSR,Mining Software Repositories,IEEE/ACM,http://dblp.uni-trier.de/db/conf/msr/
+CCF-C,REFSQ,Requirements Engineering: Foundation for Software Quality,Springer,http://dblp.uni-trier.de/db/conf/refsq/
+CCF-C,WICSA,Working IEEE/IFIP Conference on Software Architecture,IEEE,http://dblp.uni-trier.de/db/conf/wicsa/
+CCF-C,Internetware,Asia-Pacific Symposium on Internetware,ACM,https://dblp.uni-trier.de/db/conf/internetware/index.html
+CCF-C,RV,International Conference on Runtime Verification,Springer,https://dblp.uni-trier.de/db/conf/rv/index.html
+CCF-A,TODS,ACM Transactions on Database Systems,ACM,http://dblp.uni-trier.de/db/journals/tods/
+CCF-A,TOIS,ACM Transactions on Information Systems,ACM,http://dblp.uni-trier.de/db/journals/tois/
+CCF-A,TKDE,IEEE Transactions on Knowledge and Data Engineering,IEEE,http://dblp.uni-trier.de/db/journals/tkde/
+CCF-A,VLDBJ,The VLDB Journal,Springer,http://dblp.uni-trier.de/db/journals/vldb/
+CCF-B,TKDD,ACM Transactions on Knowledge Discovery from Data,ACM,http://dblp.uni-trier.de/db/journals/tkdd/
+CCF-B,TWEB,ACM Transactions on the Web,ACM,http://dblp.uni-trier.de/db/journals/tweb/
+CCF-B,AEI,Advanced Engineering Informatics,Elsevier,http://dblp.uni-trier.de/db/journals/aei/
+CCF-B,DKE,Data and Knowledge Engineering,Elsevier,http://dblp.uni-trier.de/db/journals/dke/
+CCF-B,DMKD,Data Mining and Knowledge Discovery,Springer,http://dblp.uni-trier.de/db/journals/datamine/
+CCF-B,EJIS,European Journal of Information Systems,Springer,http://dblp.uni-trier.de/db/journals/ejis/
+CCF-B,,GeoInformatica,Springer,http://dblp.uni-trier.de/db/journals/geoinformatica/
+CCF-B,IPM,Information Processing and Management,Elsevier,http://dblp.uni-trier.de/db/journals/ipm/
+CCF-B,,Information Sciences,Elsevier,http://dblp.uni-trier.de/db/journals/isci/
+CCF-B,IS,Information Systems,Elsevier,http://dblp.uni-trier.de/db/journals/is/
+CCF-B,JASIST,Journal of the American Society for Information Science and Technology,American Society for Information Science and Technology,http://dblp.uni-trier.de/db/journals/jasis/
+CCF-B,JWS,Journal of Web Semantics,Elsevier,http://dblp.uni-trier.de/db/journals/ws/
+CCF-B,KAIS,Knowledge and Information Systems,Springer,http://dblp.uni-trier.de/db/journals/kais/
+CCF-C,DPD,Distributed and Parallel Databases,Springer,http://dblp.uni-trier.de/db/journals/dpd/
+CCF-C,I&M,Information and Management,Elsevier,http://dblp.uni-trier.de/db/journals/iam/
+CCF-C,IPL,Information Processing Letters,Elsevier,http://dblp.uni-trier.de/db/journals/ipl/
+CCF-C,IR,Information Retrieval Journal,Springer,http://dblp.uni-trier.de/db/journals/ir/
+CCF-C,IJCIS,International Journal of Cooperative Information Systems,World Scientific,http://dblp.uni-trier.de/db/journals/ijcis/
+CCF-C,IJGIS,International Journal of Geographical Information Science,Taylor & Francis,http://dblp.uni-trier.de/db/journals/gis/
+CCF-C,IJIS,International Journal of Intelligent Systems,Wiley,http://dblp.uni-trier.de/db/journals/ijis/
+CCF-C,IJKM,International Journal of Knowledge Management,IGI,http://dblp.uni-trier.de/db/journals/ijkm/
+CCF-C,IJSWIS,International Journal on Semantic Web and Information Systems,IGI,http://dblp.uni-trier.de/db/journals/ijswis/
+CCF-C,JCIS,Journal of Computer Information Systems,IACIS,http://dblp.uni-trier.de/db/journals/jcis/
+CCF-C,JDM,Journal of Database Management,IGI-Global,http://dblp.uni-trier.de/db/journals/jdm/
+CCF-C,JGITM,Journal of Global Information Technology Management,Ivy League Publishing,https://dblp.uni-trier.de/db/journals/jgim/index.html
+CCF-C,JIIS,Journal of Intelligent Information Systems,Springer,http://dblp.uni-trier.de/db/journals/jiis/
+CCF-C,JSIS,Journal of Strategic Information Systems,Elsevier,http://dblp.uni-trier.de/db/journals/jsis/
+CCF-C,DSE,Data Science and Engineering,CCF,https://dblp.uni-trier.de/db/journals/dase/index.html
+CCF-A,SIGMOD,ACM Conference on Management of Data,ACM,http://dblp.uni-trier.de/db/conf/sigmod/
+CCF-A,SIGKDD,ACM Knowledge Discovery and Data Mining,ACM,http://dblp.uni-trier.de/db/conf/kdd/
+CCF-A,ICDE,IEEE International Conference on Data Engineering,IEEE,http://dblp.uni-trier.de/db/conf/icde/
+CCF-A,SIGIR,International Conference on Research on Development in Information Retrieval,ACM,http://dblp.uni-trier.de/db/conf/sigir/
+CCF-A,VLDB,International Conference on Very Large Data Bases,Morgan Kaufmann/ACM,http://dblp.uni-trier.de/db/conf/vldb/
+CCF-B,CIKM,ACM International Conference on Information and Knowledge Management,ACM,http://dblp.uni-trier.de/db/conf/cikm/
+CCF-B,WSDM,ACM International Conference on Web Search and Data Mining,ACM,http://dblp.uni-trier.de/db/conf/wsdm/
+CCF-B,PODS,ACM Symposium on Principles of Database Systems,ACM,http://dblp.uni-trier.de/db/conf/pods/
+CCF-B,DASFAA,Database Systems for Advanced Applications,Springer,http://dblp.uni-trier.de/db/conf/dasfaa/
+CCF-B,ECML-PKDD,European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases,Springer,http://dblp.uni-trier.de/db/conf/ecml/ http://dblp.uni-trier.de/db/conf/pkdd/
+CCF-B,ISWC,IEEE International Semantic Web Conference,IEEE,http://dblp.uni-trier.de/db/conf/semweb/
+CCF-B,ICDM,International Conference on Data Mining,IEEE,http://dblp.uni-trier.de/db/conf/icdm/
+CCF-B,ICDT,International Conference on Database Theory,Springer,http://dblp.uni-trier.de/db/conf/icdt/
+CCF-B,EDBT,International Conference on Extending DB Technology,Springer,http://dblp.uni-trier.de/db/conf/edbt/
+CCF-B,CIDR,International Conference on Innovative Data Systems Research,Online Proceeding,http://dblp.uni-trier.de/db/conf/cidr/
+CCF-B,SDM,SIAM International Conference on Data Mining,SIAM,http://dblp.uni-trier.de/db/conf/sdm/
+CCF-B,RecSys,ACM Conference on Recommender Systems,ACM,https://dblp.uni-trier.de/db/conf/recsys/index.html
+CCF-C,APWeb,Asia Pacific Web Conference,Springer,http://dblp.uni-trier.de/db/conf/apweb/
+CCF-C,DEXA,Database and Expert System Applications,Springer,http://dblp.uni-trier.de/db/conf/dexa/
+CCF-C,ECIR,European Conference on IR Research,Springer,http://dblp.uni-trier.de/db/conf/ecir/
+CCF-C,ESWC,Extended Semantic Web Conference,Springer,http://dblp.uni-trier.de/db/conf/esws/
+CCF-C,WebDB,International ACM Workshop on Web and Databases,ACM,http://dblp.uni-trier.de/db/conf/webdb/
+CCF-C,ER,International Conference on Conceptual Modeling,Springer,http://dblp.uni-trier.de/db/conf/er/
+CCF-C,MDM,International Conference on Mobile Data Management,IEEE,http://dblp.uni-trier.de/db/conf/mdm/
+CCF-C,SSDBM,International Conference on Scientific and Statistical DB Management,IEEE,http://dblp.uni-trier.de/db/conf/ssdbm/
+CCF-C,WAIM,International Conference on Web Age Information Management,Springer,http://dblp.uni-trier.de/db/conf/waim/
+CCF-C,SSTD,International Symposium on Spatial and Temporal Databases,Springer,http://dblp.uni-trier.de/db/conf/ssd/
+CCF-C,PAKDD,Pacific-Asia Conference on Knowledge Discovery and Data Mining,Springer,http://dblp.uni-trier.de/db/conf/pakdd/
+CCF-C,WISE,Web Information Systems Engineering,Springer,http://dblp.uni-trier.de/db/conf/wise/
+CCF-C,ADMA,International Conference on Advanced Data Mining and Applications,Springer,https://dblp.uni-trier.de/db/conf/adma/index.html
+CCF-A,TIT,IEEE Transactions on Information Theory,IEEE,http://dblp.uni-trier.de/db/journals/tit/
+CCF-A,IANDC,Information and Computation,Elsevier,http://dblp.uni-trier.de/db/journals/iandc/
+CCF-A,SICOMP,SIAM Journal on Computing,SIAM,http://dblp.uni-trier.de/db/journals/siamcomp/
+CCF-B,TALG,ACM Transactions on Algorithms,ACM,http://dblp.uni-trier.de/db/journals/talg/
+CCF-B,TOCL,ACM Transactions on Computational Logic,ACM,http://dblp.uni-trier.de/db/journals/tocl/
+CCF-B,TOMS,ACM Transactions on Mathematical Software,ACM,http://dblp.uni-trier.de/db/journals/toms/
+CCF-B,Algorithmica,Algorithmica,Springer,http://dblp.uni-trier.de/db/journals/algorithmica/
+CCF-B,CC,Computational Complexity,Springer,http://dblp.uni-trier.de/db/journals/cc/
+CCF-B,FAC,Formal Aspects of Computing,Springer,http://dblp.uni-trier.de/db/journals/fac/
+CCF-B,FMSD,Formal Methods in System Design,Springer,http://dblp.uni-trier.de/db/journals/fmsd/
+CCF-B,INFORMS,INFORMS Journal on Computing,INFORMS,http://dblp.uni-trier.de/db/journals/informs/
+CCF-B,JCSS,Journal of Computer and System Sciences,Elsevier,http://dblp.uni-trier.de/db/journals/jcss/
+CCF-B,JGO,Journal of Global Optimization,Springer,http://dblp.uni-trier.de/db/journals/jgo/
+CCF-B,JSC,Journal of Symbolic Computation,Elsevier,http://dblp.uni-trier.de/db/journals/jsc/
+CCF-B,MSCS,Mathematical Structures in Computer Science,Cambridge University Press,http://dblp.uni-trier.de/db/journals/mscs/
+CCF-B,TCS,Theoretical Computer Science,Elsevier,http://dblp.uni-trier.de/db/journals/tcs/
+CCF-C,ACTA,Acta Informatica,Springer,http://dblp.uni-trier.de/db/journals/acta/
+CCF-C,APAL,Annals of Pure and Applied Logic,Elsevier,http://dblp.uni-trier.de/db/journals/apal/
+CCF-C,DAM,Discrete Applied Mathematics,Elsevier,http://dblp.uni-trier.de/db/journals/dam/
+CCF-C,FUIN,Fundamenta Informaticae,IOS Press,http://dblp.uni-trier.de/db/journals/fuin/
+CCF-C,LISP,Higher-Order and Symbolic Computation,Springer,http://dblp.uni-trier.de/db/journals/lisp/
+CCF-C,IPL,Information Processing Letters,Elsevier,http://dblp.uni-trier.de/db/journals/ipl/
+CCF-C,JCOMPLEXITY,Journal of Complexity,Elsevier,http://dblp.uni-trier.de/db/journals/jc/
+CCF-C,LOGCOM,Journal of Logic and Computation,Oxford University Press,http://dblp.uni-trier.de/db/journals/logcom/
+CCF-C,JSL,Journal of Symbolic Logic,Association for Symbolic Logic,http://dblp.uni-trier.de/db/journals/jsyml/
+CCF-C,LMCS,Logical Methods in Computer Science,LMCS,http://dblp.uni-trier.de/db/journals/lmcs/
+CCF-C,SIDMA,SIAM Journal on Discrete Mathematics,SIAM,http://dblp.uni-trier.de/db/journals/siamdm/
+CCF-C,,Theory of Computing Systems,Springer,http://dblp.uni-trier.de/db/journals/mst/
+CCF-A,STOC,ACM Symposium on the Theory of Computing,ACM,http://dblp.uni-trier.de/db/conf/stoc/
+CCF-A,SODA,ACM-SIAM Symposium on Discrete Algorithms,SIAM,http://dblp.uni-trier.de/db/conf/soda/
+CCF-A,CAV,Computer Aided Verification,Springer,http://dblp.uni-trier.de/db/conf/cav/
+CCF-A,FOCS,IEEE Annual Symposium on Foundations of Computer Science,IEEE,http://dblp.uni-trier.de/db/conf/focs/
+CCF-A,LICS,IEEE Symposium on Logic in Computer Science,IEEE,http://dblp.uni-trier.de/db/conf/lics/
+CCF-B,SoCG,ACM Symposium on Computational Geometry,ACM,http://dblp.uni-trier.de/db/conf/compgeom/
+CCF-B,ESA,European Symposium on Algorithms,Springer,http://dblp.uni-trier.de/db/conf/esa/
+CCF-B,CCC,IEEE Conference on Computational Complexity,IEEE,http://dblp.uni-trier.de/db/conf/coco/
+CCF-B,ICALP,"International Colloquium on Automata, Languages and Programming",Springer,http://dblp.uni-trier.de/db/conf/icalp/
+CCF-B,CADE/IJCAR,International Conference on Automated Deduction/International Joint Conference on Automated Reasoning,Springer,http://dblp.uni-trier.de/db/conf/cade/
+CCF-B,CONCUR,International Conference on Concurrency Theory,Springer,http://dblp.uni-trier.de/db/conf/concur/
+CCF-B,HSCC,International Conference on Hybrid Systems: Computation and Control,Springer and ACM,http://dblp.uni-trier.de/db/conf/hybrid/
+CCF-B,SAT,Theory and Applications of Satisfiability Testing,Springer,http://dblp.uni-trier.de/db/conf/sat/
+CCF-B,COCOON,International Computing and Combinatorics Conference,Springer,https://dblp.uni-trier.de/db/conf/cocoon/index.html
+CCF-C,CSL,Computer Science Logic,Springer,http://dblp.uni-trier.de/db/conf/csl/
+CCF-C,FMCAD,Formal Methods in Computer-Aided Design,ACM,http://dblp.uni-trier.de/db/conf/fmcad/
+CCF-C,FSTTCS,Foundations of Software Technology and Theoretical Computer Science,Indian Association for Research in Computing Science,http://dblp.uni-trier.de/db/conf/fsttcs/
+CCF-C,DSAA,IEEE International Conference on Data Science and Advanced Analytics,IEEE,https://dblp.uni-trier.de/db/conf/dsaa/
+CCF-C,ICTAC,International Colloquium on Theoretical Aspects of Computing,Springer,http://dblp.uni-trier.de/db/conf/ictac/
+CCF-C,IPCO,International Conference on Integer Programming and Combinatorial Optimization,Springer,http://dblp.uni-trier.de/db/conf/ipco/
+CCF-C,RTA,International Conference on Rewriting Techniques and Applications,Springer,http://dblp.uni-trier.de/db/conf/rta/
+CCF-C,ISAAC,International Symposium on Algorithms and Computation,Springer,http://dblp.uni-trier.de/db/conf/isaac/
+CCF-C,MFCS,Mathematical Foundations of Computer Science,Springer,http://dblp.uni-trier.de/db/conf/mfcs/
+CCF-C,STACS,Symposium on Theoretical Aspects of Computer Science,Springer,http://dblp.uni-trier.de/db/conf/stacs/
+CCF-C,SETTA,"International Symposium on Dependable Software Engineering: Theories, Tools, and Applications",Springer,https://dblp.uni-trier.de/db/conf/setta/index.html
+CCF-A,TOG,ACM Transactions on Graphics,ACM,http://dblp.uni-trier.de/db/journals/tog/
+CCF-A,TIP,IEEE Transactions on Image Processing,IEEE,http://dblp.uni-trier.de/db/journals/tip/
+CCF-A,TVCG,IEEE Transactions on Visualization and Computer Graphics,IEEE,http://dblp.uni-trier.de/db/journals/tvcg/
+CCF-B,TOMCCAP,"ACM Transactions on Multimedia Computing, Communications and Application",ACM,http://dblp.uni-trier.de/db/journals/tomccap/
+CCF-B,CAGD,Computer Aided Geometric Design,Elsevier,http://dblp.uni-trier.de/db/journals/cagd/
+CCF-B,CGF,Computer Graphics Forum,Wiley,http://dblp.uni-trier.de/db/journals/cgf/
+CCF-B,CAD,Computer-Aided Design,Elsevier,http://dblp.uni-trier.de/db/journals/cad/
+CCF-B,GM,Graphical Models,Elsevier,http://dblp.uni-trier.de/db/journals/cvgip/
+CCF-B,TCSVT,IEEE Transactions on Circuits and Systems for Video Technology,IEEE,http://dblp.uni-trier.de/db/journals/tcsv/
+CCF-B,TMM,IEEE Transactions on Multimedia,IEEE,http://dblp.uni-trier.de/db/journals/tmm/
+CCF-B,JASA,Journal of The Acoustical Society of America,AIP,http://scitation.aip.org/content/asa/journal/jasa
+CCF-B,SIIMS,SIAM Journal on Imaging Sciences,SIAM,http://dblp.uni-trier.de/db/journals/siamis/
+CCF-B,Speech Com,Speech Communication,Elsevier,http://dblp.uni-trier.de/db/journals/speech/
+CCF-C,CGTA,Computational Geometry: Theory and Applications,Elsevier,http://dblp.uni-trier.de/db/journals/comgeo/
+CCF-C,CAVW,Computer Animation and Virtual Worlds,Wiley,https://dblp.uni-trier.de/db/journals/jvca/index.html
+CCF-C,C&G,Computers & Graphics,Elsevier,http://dblp.uni-trier.de/db/journals/cg/
+CCF-C,DCG,Discrete & Computational Geometry,Springer,http://dblp.uni-trier.de/db/journals/dcg/
+CCF-C,SPL,IEEE Signal Processing Letters,IEEE,http://dblp.uni-trier.de/db/journals/spl/
+CCF-C,IET-IPR,IET Image Processing,IET,http://dblp.uni-trier.de/db/journals/iet-ipr/
+CCF-C,JVCIR,Journal of Visual Communication and Image Representation,Elsevier,http://dblp.uni-trier.de/db/journals/jvcir/
+CCF-C,MS,Multimedia Systems,Springer,http://dblp.uni-trier.de/db/journals/mms/
+CCF-C,MTA,Multimedia Tools and Applications,Springer,http://dblp.uni-trier.de/db/journals/mta/
+CCF-C,,Signal Processing,Elsevier,http://dblp.uni-trier.de/db/journals/sigpro/
+CCF-C,SPIC,Signal Processing: Image Communication,Elsevier,http://dblp.uni-trier.de/db/journals/spic/
+CCF-C,TVC,The Visual Computer,Springer,http://dblp.uni-trier.de/db/journals/vc/
+CCF-C,CVMJ,Computational Visual Media,"TsinghuaUniversity;Springer",https://dblp.uni-trier.de/db/journals/cvm/index.html
+CCF-A,ACM MM,ACM International Conference on Multimedia,ACM,http://dblp.uni-trier.de/db/conf/mm/
+CCF-A,SIGGRAPH,ACM SIGGRAPH Annual Conference,ACM,http://dblp.uni-trier.de/db/conf/siggraph/index.html
+CCF-A,VR,IEEE Virtual Reality,IEEE,http://dblp.uni-trier.de/db/conf/vr/
+CCF-A,IEEE VIS,IEEE Visualization Conference,IEEE,http://dblp.uni-trier.de/db/conf/visualization/index.html
+CCF-B,ICMR,ACM SIGMM International Conference on Multimedia Retrieval,ACM,http://dblp.uni-trier.de/db/conf/mir/
+CCF-B,SI3D,ACM Symposium on Interactive 3D Graphics,ACM,http://dblp.uni-trier.de/db/conf/si3d/
+CCF-B,SCA,ACM/Eurographics Symposium on Computer Animation,ACM,http://dblp.uni-trier.de/db/conf/sca/index.html
+CCF-B,DCC,Data Compression Conference,IEEE,http://dblp.uni-trier.de/db/conf/dcc/
+CCF-B,EG,Eurographics,Wiley/ Blackwell,http://dblp.uni-trier.de/db/conf/eurographics/
+CCF-B,EuroVis,Eurographics Conference on Visualization,ACM,http://dblp.uni-trier.de/db/conf/vissym/
+CCF-B,SGP,Eurographics Symposium on Geometry Processing,Wiley/Blackwell,http://dblp.uni-trier.de/db/conf/sgp/
+CCF-B,EGSR,Eurographics Symposium on Rendering,Wiley/Blackwell,http://dblp.uni-trier.de/db/conf/rt/
+CCF-B,ICASSP,"IEEE International Conference on Acoustics, Speech and SP",IEEE,http://dblp.uni-trier.de/db/conf/icassp/
+CCF-B,ICME,IEEE International Conference on Multimedia & Expo,IEEE,http://dblp.uni-trier.de/db/conf/icmcs/
+CCF-B,ISMAR,International Symposium on Mixed and Augmented Reality,IEEE/ACM,http://dblp.uni-trier.de/db/conf/ismar/
+CCF-B,PG,Pacific Graphics: The Pacific Conference on Computer Graphics and Applications,Wiley/Blackwell,http://dblp.uni-trier.de/db/conf/pg/index.html
+CCF-B,SPM,Symposium on Solid and Physical Modeling,SMA/Elsevier,http://dblp.uni-trier.de/db/conf/sma/
+CCF-C,,ACM Symposium on Virtual Reality Software and Technology,ACM,http://dblp.uni-trier.de/db/conf/vrst/
+CCF-C,CASA,Computer Animation and Social Agents,Wiley,http://dblp.uni-trier.de/db/conf/ca/
+CCF-C,CGI,Computer Graphics International,Springer,http://dblp.uni-trier.de/db/conf/cgi/
+CCF-C,INTERSPEECH,Conference of the International Speech Communication Association,,http://dblp.uni-trier.de/db/conf/interspeech/index.html
+CCF-C,GMP,Geometric Modeling and Processing,Elsevier,http://dblp.uni-trier.de/db/conf/gmp/
+CCF-C,PacificVis,IEEE Pacific Visualization Symposium,IEEE,http://dblp.uni-trier.de/db/conf/apvis/
+CCF-C,3DV,International Conference on 3D Vision,IEEE,https://dblp.uni-trier.de/db/conf/3dim/
+CCF-C,CAD/Graphics,International Conference on Computer-Aided Design and Computer Graphics,IEEE,https://dblp.uni-trier.de/db/conf/cadgraphics/
+CCF-C,ICIP,International Conference on Image Processing,IEEE,http://dblp.uni-trier.de/db/conf/icip/
+CCF-C,MMM,International Conference on Multimedia Modeling,Springer,http://dblp.uni-trier.de/db/conf/mmm/index.html
+CCF-C,PCM,Pacific-Rim Conference on Multimedia,Springer,http://dblp.uni-trier.de/db/conf/pcm/
+CCF-C,SMI,Shape Modeling International,IEEE,http://dblp.uni-trier.de/db/conf/smi/
+CCF-C,ICVRV,International Conference on Virtual Reality and Visualization,IEEE,https://www.computer.org/csdl/proceedings/1800579
+CCF-C,CVM,Computational Visual Media,TsinghuaUniversity,https://dblp.uni-trier.de/db/conf/cvm/index.html
+CCF-C,PRCV,Chinese Conference on Pattern Recognition and Computer Vision,Springer,https://dblp.uni-trier.de/db/conf/prcv/index.html
+CCF-A,AI,Artificial Intelligence,Elsevier,http://dblp.uni-trier.de/db/journals/ai/
+CCF-A,TPAMI,IEEE Trans on Pattern Analysis and Machine Intelligence,IEEE,http://dblp.uni-trier.de/db/journals/pami/
+CCF-A,IJCV,International Journal of Computer Vision,Springer,http://dblp.uni-trier.de/db/journals/ijcv/
+CCF-A,JMLR,Journal of Machine Learning Research,MIT Press,http://dblp.uni-trier.de/db/journals/jmlr/
+CCF-B,TAP,ACM Transactions on Applied Perception,ACM,http://dblp.uni-trier.de/db/journals/tap/
+CCF-B,TSLP,ACM Transactions on Speech and Language Processing,ACM,http://dblp.uni-trier.de/db/journals/tslp/
+CCF-B,AAMAS,Autonomous Agents and Multi-Agent Systems,Springer,http://dblp.uni-trier.de/db/journals/aamas/
+CCF-B,,Computational Linguistics,MIT Press,http://dblp.uni-trier.de/db/journals/coling/
+CCF-B,CVIU,Computer Vision and Image Understanding,Elsevier,http://dblp.uni-trier.de/db/journals/cviu/
+CCF-B,DKE,Data and Knowledge Engineering,Elsevier,http://dblp.uni-trier.de/db/journals/dke/index.html
+CCF-B,,Evolutionary Computation,MIT Press,http://dblp.uni-trier.de/db/journals/ec/
+CCF-B,TAC,IEEE Transactions on Affective Computing,IEEE,http://dblp.uni-trier.de/db/journals/taffco/
+CCF-B,TASLP,"IEEE Transactions on Audio, Speech, and Language Processing",IEEE,http://dblp.uni-trier.de/db/journals/taslp/
+CCF-B,,IEEE Transactions on Cybernetics,IEEE,http://dblp.uni-trier.de/db/journals/tcyb/
+CCF-B,TEC,IEEE Transactions on Evolutionary Computation,IEEE,http://dblp.uni-trier.de/db/journals/tec/
+CCF-B,TFS,IEEE Transactions on Fuzzy Systems,IEEE,http://dblp.uni-trier.de/db/journals/tfs/
+CCF-B,TNNLS,IEEE Transactions on Neural Networks and learning systems,IEEE,http://dblp.uni-trier.de/db/journals/tnn/
+CCF-B,IJAR,International Journal of Approximate Reasoning,Elsevier,http://dblp.uni-trier.de/db/journals/ijar/
+CCF-B,JAIR,Journal of Artificial Intelligence Research,AAAI,http://dblp.uni-trier.de/db/journals/jair/index.html
+CCF-B,,Journal of Automated Reasoning,Springer,http://dblp.uni-trier.de/db/journals/jar/
+CCF-B,JSLHR,"Journal of Speech, Language, and Hearing Research",American Speech-Language Hearing Association,http://jslhr.pubs.asha.org/
+CCF-B,,Machine Learning,Springer,http://dblp.uni-trier.de/db/journals/ml/
+CCF-B,,Neural Computation,MIT Press,http://dblp.uni-trier.de/db/journals/neco/
+CCF-B,,Neural Networks,Elsevier,http://dblp.uni-trier.de/db/journals/nn/
+CCF-B,PR,Pattern Recognition,Elsevier,http://dblp.uni-trier.de/db/conf/par/
+CCF-B,TACL,Transactions of the Association for Computational Linguistics,The Association for Computational Linguistics,https://dblp.uni-trier.de/db/journals/tacl/index.html
+CCF-C,TALLIP,ACM Transactions on Asian and Low-Resource Language Information Processing,ACM,http://dblp.uni-trier.de/db/journals/talip/
+CCF-C,,Applied Intelligence,Springer,http://dblp.uni-trier.de/db/journals/apin/
+CCF-C,AIM,Artificial Intelligence in Medicine,Elsevier,http://dblp.uni-trier.de/db/journals/artmed/
+CCF-C,,Artificial Life,MIT Press,http://dblp.uni-trier.de/db/journals/alife/
+CCF-C,,Computational Intelligence,Wiley,http://dblp.uni-trier.de/db/journals/ci/
+CCF-C,,Computer Speech and Language,Elsevier,http://dblp.uni-trier.de/db/journals/csl/
+CCF-C,,Connection Science,Taylor & Francis,http://dblp.uni-trier.de/db/journals/connection/
+CCF-C,DSS,Decision Support Systems,Elsevier,http://dblp.uni-trier.de/db/journals/dss/
+CCF-C,EAAI,Engineering Applications of Artificial Intelligence,Elsevier,http://dblp.uni-trier.de/db/journals/eaai/
+CCF-C,,Expert Systems,Blackwell/Wiley,http://dblp.uni-trier.de/db/journals/es/
+CCF-C,ESWA,Expert Systems with Applications,Elsevier,http://dblp.uni-trier.de/db/journals/eswa/
+CCF-C,,Fuzzy Sets and Systems,Elsevier,http://dblp.uni-trier.de/db/journals/fss/
+CCF-C,TG,IEEE Transactions on Games,IEEE,http://dblp.uni-trier.de/db/journals/tciaig/
+CCF-C,IET-CVI,IET Computer Vision,IET,https://dblp.uni-trier.de/db/journals/iet-cvi/index.html
+CCF-C,,IET Signal Processing,IET,https://dblp.uni-trier.de/db/journals/iet-spr/index.html
+CCF-C,IVC,Image and Vision Computing,Elsevier,http://dblp.uni-trier.de/db/journals/ivc/
+CCF-C,IDA,Intelligent Data Analysis,IOS Press,http://dblp.uni-trier.de/db/journals/ida/
+CCF-C,IJCIA,International Journal of Computational Intelligence and Applications,World Scientific,http://dblp.uni-trier.de/db/journals/ijcia/
+CCF-C,IJIS,International Journal of Intelligent Systems,Wiley,http://dblp.uni-trier.de/db/journals/ijis/
+CCF-C,IJNS,International Journal of Neural Systems,World Scientific,http://dblp.uni-trier.de/db/journals/ijns/
+CCF-C,IJPRAI,International Journal of Pattern Recognition and Artificial Intelligence,World Scientific,http://dblp.uni-trier.de/db/journals/ijprai/
+CCF-C,IJUFKS,"International Journal of Uncertainty, Fuzziness and Knowledge-Based System",World Scientific,https://dblp.uni-trier.de/db/journals/ijufks/
+CCF-C,IJDAR,International Journal on Document Analysis and Recognition,Springer,http://dblp.uni-trier.de/db/journals/ijdar/
+CCF-C,JETAI,Journal of Experimental and Theoretical Artificial Intelligence,Taylor & Francis,http://dblp.uni-trier.de/db/journals/jetai/
+CCF-C,KBS,Knowledge-Based Systems,Elsevier,http://dblp.uni-trier.de/db/journals/kbs/
+CCF-C,,Machine Translation,Springer,http://dblp.uni-trier.de/db/journals/mt/
+CCF-C,,Machine Vision and Applications,Springer,http://dblp.uni-trier.de/db/journals/mva/
+CCF-C,,Natural Computing,Springer,http://dblp.uni-trier.de/db/journals/nc/
+CCF-C,NLE,Natural Language Engineering,Cambridge University Press,http://dblp.uni-trier.de/db/journals/nle/
+CCF-C,NCA,Neural Computing & Applications,Springer,http://dblp.uni-trier.de/db/journals/nca/
+CCF-C,NPL,Neural Processing Letters,Springer,http://dblp.uni-trier.de/db/journals/npl/
+CCF-C,,Neurocomputing,Elsevier,http://dblp.uni-trier.de/db/journals/ijon/
+CCF-C,PAA,Pattern Analysis and Applications,Springer,http://dblp.uni-trier.de/db/journals/paa/
+CCF-C,PRL,Pattern Recognition Letters,Elsevier,http://dblp.uni-trier.de/db/journals/prl/
+CCF-C,,Soft Computing,Springer,http://dblp.uni-trier.de/db/journals/soco/
+CCF-C,WI,Web Intelligence,IOS Press,http://dblp.uni-trier.de/db/journals/wias/
+CCF-C,TIIS,ACM Transactions on Interactive Intelligent Systems,ACM,https://dblp.uni-trier.de/db/journals/tiis/index.html
+CCF-A,AAAI,AAAI Conference on Artificial Intelligence,AAAI,http://dblp.uni-trier.de/db/conf/aaai/
+CCF-A,NeurIPS,Annual Conference on Neural Information Processing Systems,MIT Press,http://dblp.uni-trier.de/db/conf/nips/
+CCF-A,ACL,Annual Meeting of the Association for Computational Linguistics,ACL,http://dblp.uni-trier.de/db/conf/acl/
+CCF-A,CVPR,IEEE Conference on Computer Vision and Pattern Recognition,IEEE,http://dblp.uni-trier.de/db/conf/cvpr/
+CCF-A,ICCV,International Conference on Computer Vision,IEEE,http://dblp.uni-trier.de/db/conf/iccv/
+CCF-A,ICML,International Conference on Machine Learning,ACM,http://dblp.uni-trier.de/db/conf/icml/
+CCF-A,IJCAI,International Joint Conference on Artificial Intelligence,Morgan Kaufmann,http://dblp.uni-trier.de/db/conf/ijcai/
+CCF-B,COLT,Annual Conference on Computational Learning Theory,Springer,http://dblp.uni-trier.de/db/conf/colt/
+CCF-B,EMNLP,Conference on Empirical Methods in Natural Language Processing,ACL,http://dblp.uni-trier.de/db/conf/emnlp/
+CCF-B,ECAI,European Conference on Artificial Intelligence,IOS Press,http://dblp.uni-trier.de/db/conf/ecai/
+CCF-B,ECCV,European Conference on Computer Vision,Springer,http://dblp.uni-trier.de/db/conf/eccv/
+CCF-B,ICRA,IEEE International Conference on Robotics and Automation,IEEE,http://dblp.uni-trier.de/db/conf/icra/
+CCF-B,ICAPS,International Conference on Automated Planning and Scheduling,AAAI,http://dblp.uni-trier.de/db/conf/aips/
+CCF-B,ICCBR,International Conference on Case-Based Reasoning and Development,Springer,http://dblp.uni-trier.de/db/conf/iccbr/
+CCF-B,COLING,International Conference on Computational Linguistics,ACM,http://dblp.uni-trier.de/db/conf/coling/
+CCF-B,KR,International Conference on Principles of Knowledge Representation and Reasoning,Morgan Kaufmann,http://dblp.uni-trier.de/db/conf/kr/
+CCF-B,UAI,International Conference on Uncertainty in Artificial Intelligence,AUAI,http://dblp.uni-trier.de/db/conf/uai/
+CCF-B,AAMAS,International Joint Conference on Autonomous Agents and Multi-agent Systems,Springer,http://dblp.uni-trier.de/db/conf/atal/index.html
+CCF-B,PPSN,Parallel Problem Solving from Nature,Springer,http://dblp.uni-trier.de/db/conf/ppsn/
+CCF-B,NAACL,North American Chapter of the Association for Computational Linguistics,Association for Computational Linguistics,http://dblp.uni-trier.de/db/conf/naacl/
+CCF-C,AISTATS,Artificial Intelligence and Statistics,JMLR,http://dblp.uni-trier.de/db/conf/aistats/
+CCF-C,ACCV,Asian Conference on Computer Vision,Springer,http://dblp.uni-trier.de/db/conf/accv/
+CCF-C,ACML,Asian Conference on Machine Learning,JMLR,http://dblp.uni-trier.de/db/conf/acml/
+CCF-C,BMVC,British Machine Vision Conference,British Machine Vision Association,http://dblp.uni-trier.de/db/conf/bmvc/
+CCF-C,NLPCC,CCF International Conference on Natural Language Processing and Chinese Computing,Springer,https://dblp.uni-trier.de/db/conf/nlpcc/
+CCF-C,CoNLL,Conference on Computational Natural Language Learning,Association for Computational Linguistics,http://dblp.uni-trier.de/db/conf/conll
+CCF-C,GECCO,Genetic and Evolutionary Computation Conference,ACM,http://dblp.uni-trier.de/db/conf/gecco/
+CCF-C,ICTAI,IEEE International Conference on Tools with Artificial Intelligence,IEEE,http://dblp.uni-trier.de/db/conf/ictai/
+CCF-C,IROS,IEEE\RSJ International Conference on Intelligent Robots and Systems,IEEE,http://dblp.uni-trier.de/db/conf/iros/
+CCF-C,ALT,International Conference on Algorithmic Learning Theory,Springer,http://dblp.uni-trier.de/db/conf/alt/
+CCF-C,ICANN,International Conference on Artificial Neural Networks,Springer,http://dblp.uni-trier.de/db/conf/icann/
+CCF-C,FG,International Conference on Automatic Face and Gesture Recognition,IEEE,http://dblp.uni-trier.de/db/conf/fgr/
+CCF-C,ICDAR,International Conference on Document Analysis and Recognition,IEEE,http://dblp.uni-trier.de/db/conf/icdar/
+CCF-C,ILP,International Conference on Inductive Logic Programming,Springer,http://dblp.uni-trier.de/db/conf/ilp/
+CCF-C,KSEM,"International conference on Knowledge Science, Engineering and Management",Springer,http://dblp.uni-trier.de/db/conf/ksem/
+CCF-C,ICONIP,International Conference on Neural Information Processing,Springer,http://dblp.uni-trier.de/db/conf/iconip/
+CCF-C,ICPR,International Conference on Pattern Recognition,IEEE,http://dblp.uni-trier.de/db/conf/icpr/
+CCF-C,ICB,International Joint Conference on Biometrics,IEEE,http://dblp.uni-trier.de/db/conf/icb/
+CCF-C,IJCNN,International Joint Conference on Neural Networks,IEEE,http://dblp.uni-trier.de/db/conf/ijcnn/
+CCF-C,PRICAI,Pacific Rim International Conference on Artificial Intelligence,Springer,http://dblp.uni-trier.de/db/conf/pricai/
+CCF-A,TOCHI,ACM Transactions on Computer-Human Interaction,ACM,http://dblp.uni-trier.de/db/journals/tochi/
+CCF-A,IJHCS,International Journal of Human Computer Studies,Elsevier,http://dblp.uni-trier.de/db/journals/ijmms/
+CCF-B,CSCW,Computer Supported Cooperative Work,Springer,http://dblp.uni-trier.de/db/journals/cscw/
+CCF-B,HCI,Human Computer Interaction,Taylor & Francis,http://dblp.uni-trier.de/db/journals/hhci/
+CCF-B,,IEEE Transactions on Human-Machine Systems,IEEE,http://dblp.uni-trier.de/db/journals/thms/
+CCF-B,IWC,Interacting with Computers,Oxford University Press,http://dblp.uni-trier.de/db/journals/iwc/
+CCF-B,IJHCI,International Journal of Human-Computer Interaction,Taylor & Francis,http://dblp.uni-trier.de/db/journals/ijhci/
+CCF-B,UMUAI,User Modeling and User-Adapted Interaction,Springer,http://dblp.uni-trier.de/db/journals/umuai/
+CCF-B,TSMC,"IEEE Transactions on Systems, Man, and Cybernetics: Systems",IEEE,https://dblp.uni-trier.de/db/journals/tsmc/
+CCF-C,BIT,Behaviour & Information Technology,Taylor & Francis,http://dblp.uni-trier.de/db/journals/behaviourIT/
+CCF-C,PUC,Personal and Ubiquitous Computing,Springer,http://dblp.uni-trier.de/db/journals/puc/
+CCF-C,PMC,Pervasive and Mobile Computing,Elsevier,http://dblp.uni-trier.de/db/journals/percom/
+CCF-C,PACMHCI,Proceedings of the ACM on Human- Computer Interaction,ACM,https://dblp.uni-trier.de/db/journals/pacmhci/index.html
+CCF-A,CSCW,ACM Conference on Computer Supported Cooperative Work and Social Computing,ACM,http://dblp.uni-trier.de/db/conf/cscw
+CCF-A,CHI,ACM Conference on Human Factors in Computing Systems,ACM,http://dblp.uni-trier.de/db/conf/chi
+CCF-A,UbiComp,ACM International Conference on Ubiquitous Computing,ACM,http://dblp.uni-trier.de/db/conf/huc/
+CCF-A,UIST,ACM Symposium on User Interface Software and Technology,ACM,http://dblp.uni-trier.de/db/conf/uist/
+CCF-B,GROUP,ACM Conference on Supporting Group Work,ACM,http://dblp.uni-trier.de/db/conf/group/
+CCF-B,IUI,ACM International Conference on Intelligent User Interfaces,ACM,http://dblp.uni-trier.de/db/conf/iui/
+CCF-B,ITS,ACM International Conference on Interactive Tabletops and Surfaces,ACM,http://dblp.uni-trier.de/db/conf/tabletop/
+CCF-B,ECSCW,European Conference on Computer Supported Cooperative Work,Springer,http://dblp.uni-trier.de/db/conf/ecscw/
+CCF-B,PERCOM,IEEE International Conference on Pervasive Computing and Communications,IEEE,http://dblp.uni-trier.de/db/conf/percom/
+CCF-B,MobileHCI,International Conference on Human Computer Interaction with Mobile Devices and Services,ACM,http://dblp.uni-trier.de/db/conf/mhci/
+CCF-B,ICWSM,The International AAAI Conference on Web and Social Media,AAAI,https://dblp.uni-trier.de/db/conf/icwsm/index.html
+CCF-C,DIS,ACM Conference on Designing Interactive Systems,ACM,http://dblp.uni-trier.de/db/conf/ACMdis
+CCF-C,ICMI,ACM International Conference on Multimodal Interaction,ACM,http://dblp.uni-trier.de/db/conf/icmi/
+CCF-C,ASSETS,ACM SIGACCESS Conference on Computers and Accessibility,ACM,http://dblp.uni-trier.de/db/conf/assets
+CCF-C,GI,Graphics Interface conference,ACM,http://dblp.uni-trier.de/db/conf/graphicsinterface/
+CCF-C,UIC,IEEE International Conference on Ubiquitous Intelligence and Computing,IEEE,http://dblp.uni-trier.de/db/conf/uic/
+CCF-C,,IEEE World Haptics Conference,IEEE,http://dblp.uni-trier.de/db/conf/haptics/
+CCF-C,INTERACT,IFIP TC13 Conference on Human-Computer Interaction,IFIP,http://dblp.uni-trier.de/db/conf/interact/
+CCF-C,IDC,Interaction Design and Children,ACM,http://dblp.uni-trier.de/db/conf/acmidc/
+CCF-C,CollaborateCom,"International Conference on Collaborative Computing: Networking, Applications and Worksharing",Springer,https://dblp.uni-trier.de/db/conf/colcom/
+CCF-C,CSCWD,International Conference on Computer Supported Cooperative Work in Design,Springer,http://dblp.uni-trier.de/db/conf/cscwd/
+CCF-C,CoopIS,International Conference on Cooperative Information Systems,Springer,http://dblp.uni-trier.de/db/conf/coopis/
+CCF-C,MobiQuitous,"International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",Springer,http://dblp.uni-trier.de/db/conf/mobiquitous/
+CCF-C,AVI,International Working Conference on Advanced Visual Interfaces,ACM,http://dblp.uni-trier.de/db/conf/avi/
+CCF-A,JACM,Journal of the ACM,ACM,http://dblp.uni-trier.de/db/journals/jacm/
+CCF-A,Proc. IEEE,Proceedings of the IEEE,IEEE,http://dblp.uni-trier.de/db/journals/pieee/
+CCF-A,SCIS,Science China Information Sciences,Science in China Press/Springer,http://dblp.uni-trier.de/db/journals/chinaf/
+CCF-B,,Bioinformatics,Oxford University Press,http://dblp.uni-trier.de/db/journals/bioinformatics/
+CCF-B,,Briefings in Bioinformatics,Oxford University Press,http://dblp.uni-trier.de/db/journals/bib/
+CCF-B,Cognition,Cognition: International Journal of Cognitive Science,Elsevier,http://www.journals.elsevier.com/cognition/
+CCF-B,TASAE,IEEE Transactions on Automation Science and Engineering,IEEE,http://dblp.uni-trier.de/db/journals/tase/
+CCF-B,TGARS,IEEE Transactions on Geoscience and Remote Sensing,IEEE,http://dblp.uni-trier.de/db/journals/tgrs/
+CCF-B,TITS,IEEE Transactions on Intelligent Transportation Systems,IEEE,http://dblp.uni-trier.de/db/journals/tits/
+CCF-B,TMI,IEEE Transactions on Medical Imaging,IEEE,http://dblp.uni-trier.de/db/journals/tmi/
+CCF-B,TR,IEEE Transactions on Robotics,IEEE,http://dblp.uni-trier.de/db/journals/trob/
+CCF-B,TCBB,IEEE-ACM Transactions on Computational Biology and Bioinformatics,IEEE/ACM,http://dblp.uni-trier.de/db/journals/tcbb/
+CCF-B,JCST,Journal of Computer Science and Technology,SCIENCE PRESS/Springer,http://dblp.uni-trier.de/db/journals/jcst/
+CCF-B,JAMIA,Journal of the American Medical Informatics Association,BMJ Journals,http://dblp.uni-trier.de/db/journals/jamia/
+CCF-B,,PLOS Computational Biology,Public Library of Science,http://dblp.uni-trier.de/db/journals/ploscb/
+CCF-B,,The Computer Journal,Oxford University Press,http://dblp.uni-trier.de/db/journals/cj/
+CCF-B,WWW,World Wide Web,Springer,https://dblp.uni-trier.de/db/journals/www/index.html
+CCF-B,FCS,Frontiers of Computer Science,Higher Education Press,http://dblp.uni-trier.de/db/journals/fcsc/
+CCF-C,,BMC Bioinformatics,BioMed Central,http://dblp.uni-trier.de/db/journals/bmcbi/
+CCF-C,,Cybernetics and Systems,Taylor & Francis,http://dblp.uni-trier.de/db/journals/cas/
+CCF-C,,IEEE Geoscience and Remote Sensing Letters,IEEE,http://dblp.uni-trier.de/db/journals/lgrs/
+CCF-C,JBHI,IEEE Journal of Biomedical and Health Informatics,IEEE,http://dblp.uni-trier.de/db/journals/titb/
+CCF-C,TBD,IEEE Transactions on Big Data,IEEE,https://dblp.uni-trier.de/db/journals/tbd/
+CCF-C,,IET Intelligent Transport Systems,IET,http://digital-library.theiet.org/content/journals/iet-its
+CCF-C,JBI,Journal of Biomedical Informatics,Elsevier,https://dblp.uni-trier.de/db/journals/jbi/
+CCF-C,,Medical Image Analysis,Elsevier,http://dblp.uni-trier.de/db/journals/mia/
+CCF-C,TII,IEEE Transactions on Industrial Informatics,IEEE,https://dblp.uni-trier.de/db/journals/tii/index.html
+CCF-C,TCPS,ACM Transactions on Cyber- Physical Systems,ACM,https://dblp.uni-trier.de/db/journals/tcps/index.html
+CCF-C,TOCE,ACM Transactions on Computing Education,ACM,https://dblp.uni-trier.de/db/journals/jeric/index.html
+CCF-C,FITEE,Frontiers of Information Technology & Electronic Engineering,Springer,https://dblp.uni-trier.de/db/journals/jzusc/index.html
+CCF-C,TCSS,IEEE Transactions on Computational Social Systems,IEEE,https://dblp.uni-trier.de/db/journals/tcss/index.html
+CCF-C,,IEEE Transactions on Reliability,IEEE,https://dblp.uni-trier.de/db/journals/tr/index.html
+CCF-A,WWW,International World Wide Web Conferences,ACM,http://dblp.uni-trier.de/db/conf/www/
+CCF-A,RTSS,Real-Time Systems Symposium,IEEE,http://dblp.uni-trier.de/db/conf/rtss/
+CCF-A,WINE,Conference on Web and Internet Economics,Springer,https://dblp.uni-trier.de/db/conf/wine/index.html
+CCF-B,CogSci,Cognitive Science Society Annual Conference,Psychology Press,https://dblp.uni-trier.de/db/conf/cogsci/
+CCF-B,BIBM,IEEE International Conference on Bioinformatics and Biomedicine,IEEE,http://dblp.uni-trier.de/db/conf/bibm/
+CCF-B,EMSOFT,International Conference on Embedded Software,ACM/IEEE/IFIP,http://dblp.uni-trier.de/db/conf/emsoft/
+CCF-B,ISMB,International conference on Intelligent Systems for Molecular Biology,Oxford Journals,https://dblp.uni-trier.de/db/conf/ismb/index.html
+CCF-B,RECOMB,International Conference on Research in Computational Molecular Biology,Springer,http://dblp.uni-trier.de/db/conf/recomb/
+CCF-B,MICCAI,International Conference on Medical Image Computing and Computer-Assisted Intervention,Springer,https://dblp.uni-trier.de/db/conf/miccai/index.html
+CCF-C,AMIA,American Medical Informatics Association Annual Symposium,AMIA,http://dblp.uni-trier.de/db/conf/amia/
+CCF-C,APBC,Asia Pacific Bioinformatics Conference,BioMed Central,http://dblp.uni-trier.de/db/conf/apbc/
+CCF-C,,IEEE International Conference on Big Data,IEEE,https://dblp.uni-trier.de/db/conf/bigdataconf/
+CCF-C,,IEEE International Conference on Cloud Computing,IEEE,http://dblp.uni-trier.de/db/conf/IEEEcloud/
+CCF-C,SMC,"IEEE International Conference on Systems, Man, and Cybernetics",IEEE,https://dblp.uni-trier.de/db/conf/smc/
+CCF-C,COSIT,International Conference on Spatial Information Theory,ACM,http://dblp.uni-trier.de/db/conf/cosit/
+CCF-C,ISBRA,International Symposium on Bioinformatics Research and Applications,Springer,https://dblp.uni-trier.de/db/conf/isbra/
+CCF-C,SAGT,International Symposium on Algorithmic Game Theory,Springer,https://dblp.uni-trier.de/db/conf/sagt/index.html
+CCF-C,SIGSPATIAL,ACM Special Interest Group on Spatial Information,ACM,https://dblp.uni-trier.de/db/journals/sigspatial/index.html
+CCF-C,ICIC,International Conference on Intelligent Computing,Springer-Nature,https://dblp.uni-trier.de/db/conf/icic/index.html
