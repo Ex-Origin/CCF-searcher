@@ -60,6 +60,14 @@ def csv_unquote(s):
         s = '"' + s + '"'
     return s
 
+def preprocessing_title(s):
+    '''
+    Preprocess the format of title
+    '''
+    if s.endswith('.'):
+        s = s[:-1]
+    return s
+
 def dblp_journals(journal_item, url):
     '''
     Retrieve the information from the journal publications.
@@ -83,7 +91,7 @@ def dblp_journals(journal_item, url):
     article_item = soup.select("div#main > ul.publ-list > li.article")
     full_name = soup.select("header#headline > h1")[0].get_text().replace('\n', '')
     for article in article_item:
-        title = article.select("span.title")[0].get_text()
+        title = preprocessing_title(article.select("span.title")[0].get_text())
         doi_url = ''
         tmp = article.select("li.drop-down:first-child > div.head > a")
         if(tmp):
@@ -136,7 +144,7 @@ def dblp_conf(conf_item, url):
         year = tmp[0].get_text()
 
     for inproceeding in inproceedings_item:
-        title = inproceeding.select("span.title")[0].get_text()
+        title = preprocessing_title(inproceeding.select("span.title")[0].get_text())
         doi_url = ''
         tmp = inproceeding.select("li.drop-down:first-child > div.head > a")
         if(tmp):
